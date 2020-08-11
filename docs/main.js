@@ -1,4 +1,4 @@
-const logo = document.querySelectorAll('#anim__heading path')
+const logo = document.querySelectorAll('#applying__svg path')
 
 console.log(logo);
 
