@@ -508,7 +508,7 @@ header{
 }
 
 .option__interview{
-    height: 200px
+    height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
 }
@@ -529,4 +529,27 @@ header{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+}
+
+/* Customize the scroll bar for Chrome, Safari, and Edge */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(254, 255, 179);
 }
