@@ -7,7 +7,7 @@
 :root{
     --header-height: 3rem;
     --font-medium: 500;
-    --z-fixed:100; 
+    --z-fixed:100;
 }
 
 /* Colors */
@@ -80,6 +80,7 @@ header{
     top: 0;
     left: 0;
     background-color: var(--blackcolor);
+
 }
 
 /*Nav*/
@@ -88,17 +89,27 @@ header{
     padding-top: 0.54rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
 }
 
 .nav__item{
     padding-right: 1rem;
     text-align: center;
+    position: relative;
+    width: 19.7%;
 }
 
 .nav__link{
     color: var(--yellowcolor);
     font-size: 1.4rem;
     padding: 0 .5rem .2rem .5rem;
+    transition: background 0.4s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav__link:hover{
@@ -108,6 +119,7 @@ header{
 }
 .nav__item:hover .nav__subitem{
     display: block;
+    align-items: center;
 }
 .active__link{
     background-color: var(--yellowcolor);
@@ -119,11 +131,19 @@ header{
     background-color: var(--blackcolor);
     border-radius: 0 0 8px 8px;
     opacity: .8;
+    position: absolute;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 9999;
 
 }
 
 .nav__subitem{
     display: none;
+    flex-direction: column;
+    z-index: 9999;
+
 }
 .nav__subitem{
     color: var(--yellowcolor);
@@ -132,6 +152,8 @@ header{
     padding-bottom: .5rem;
     padding-right: .25rem;
     padding-left: .25rem;
+
+
 }
 
 .nav__sublink{
@@ -141,6 +163,7 @@ header{
     background-color: var(--whitecolor);
     color: var(--blackcolor);
     border-radius: 8px;
+
 }
 
 
@@ -167,7 +190,7 @@ header{
     stroke-dasharray: 484.5100402832031px;
     stroke-dashoffset: 484.5100402832031px;
     animation: line-anim 2s ease forwards 0.3s;
-} 
+}
 
 #anim__heading path:nth-child(4){
     stroke-dasharray: 329.1600341796875px;
@@ -272,7 +295,7 @@ header{
     to{
         color:var(--greycolor);
     }
-    
+
 }
 
 /*Logo Animation*/
@@ -338,7 +361,7 @@ header{
     font-size: var(--h2-font);
     color: var(--greycolor);
     animation: unhide 8s;
-    
+
 }
 
 .logo{
@@ -529,4 +552,76 @@ header{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+}
+
+/*About Us*/
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+/*carousel*/
+
+.container {
+  width: 50%;
+  margin: 10px auto;
+  padding-top: 120px;
+}
+
+.carousel {
+  border: 2px solid #ccc;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  width: 300%;
+  border: 1px solid red;
+  transition: all 0.3s;
+}
+
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider > section > p{
+  display: none;
+}
+
+.slider section:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+
+.slider section:hover > p{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  cursor: pointer;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
 }
