@@ -530,3 +530,14 @@ header{
     width: auto;
     background-color: var(--yellowcolor);
 }
+
+/*Resources page links*/
+.resources{
+    padding: 30px 50px;
+}
+a.rlinks:link, a.rlinks:visited { 
+        color:black; 
+        text-decoration: underline;
+    }
+a.rlinks:hover, a.rlinks:active { color: #F6C240;
+    }
