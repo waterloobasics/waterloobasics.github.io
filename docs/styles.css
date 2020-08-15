@@ -531,6 +531,17 @@ header{
     background-color: var(--yellowcolor);
 }
 
+/*Platforms page links*/
+.platforms{
+    padding: 30px 50px;
+}
+a.plinks:link, a.plinks:visited { 
+        color:black; 
+        text-decoration: underline;
+    }
+a.plinks:hover, a.plinks:active { color: #F6C240;
+    }
+
 /*Resources page links*/
 .resources{
     padding: 30px 50px;
