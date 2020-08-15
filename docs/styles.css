@@ -542,3 +542,13 @@ a.plinks:link, a.plinks:visited {
 a.plinks:hover, a.plinks:active { color: #F6C240;
     }
 
+/*Resources page links*/
+.resources{
+    padding: 30px 50px;
+}
+a.rlinks:link, a.rlinks:visited { 
+        color:black; 
+        text-decoration: underline;
+    }
+a.rlinks:hover, a.rlinks:active { color: #F6C240;
+    }
