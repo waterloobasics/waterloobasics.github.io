@@ -61,6 +61,7 @@ body{
     font-size: var(--normalfont);
     font-weight: var(--font-medium);
     line-height: 1.6;
+    height: 100vh;
 }
 
 /*Layout*/
@@ -309,8 +310,11 @@ header{
 }
 
 /* Main */
-
+.main{
+    height: 100vh;
+}
 .main__content{
+    height: 15rem;
     display: flex;
     background-color: var(--whitecolor);
     position: relative;
@@ -486,7 +490,8 @@ header{
 
 /*Applying Page Options*/
 .options__section{
-    height: 400px;
+    height: 60vh;
+    overflow: hidden;
 
 }
 .options__grid{
@@ -494,144 +499,162 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.aif__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grades__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.interview__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.programs__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.universities__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acceptance__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .option__label{
-    color: var(--blackcolor);
-    font-size: 30px;
-    line-height: 32px;
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 32px;
     
 }
-.option__AIF{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/AIF__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
 
-.option__grades{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/grades__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.option__interview{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/interview__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.option__programs{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/programs__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.option__universities{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/universities__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.option__acceptance{
-    height: 200px;
-    width: auto;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/acceptance__button.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.option__icon{
-    width: 100px;
-    height: auto;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .option__desc{
-    font-size: 20px;
-    position: relative;
+    display: none;
     text-align: center;
-    top: 40%;
+    color: var(--whitecolor);
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--yellowcolor);
-    display: none;
-    padding: 0 10px 0 10px;
+    padding: 0 38px 0 38px ;
 }
 
-
-.option__grades:hover .option__desc, .option__grades:hover{
-    display: block;
-    background: var(--blackcolor);
-}
-
-.option__interview:hover .option__desc, .option__interview:hover{
-    display: block;
-    background: var(--blackcolor);
-}
-
-.option__programs:hover .option__desc, .option__programs:hover{
-    display: block;
-    background: var(--blackcolor);
-}
-
-.option__universities:hover .option__desc, .option__universities:hover{
-    display: block;
-    background: var(--blackcolor);
-}
-
-.option__acceptance:hover .option__desc, .option__acceptance:hover{
-    display: block;
-    background: var(--blackcolor);
-}
-
-.option__AIF:hover .option__desc, .option__AIF:hover{
-    display: block;
-    background: var(--blackcolor);
-    
-}
-
-.option__AIF:hover .option__icon{
+.aif__option:hover .option__label{
     display:none;
 }
 
-.option__grades:hover .option__icon{
-    display:none;
+.aif__option:hover{
+    background: black
+}
+
+.aif__option:hover .option__desc{
+    display: block;
 }
 
 
-.option__interview:hover .option__icon{
+
+.grades__option:hover .option__label{
     display:none;
 }
 
-.option__programs:hover .option__icon{
-    display:none;
+.grades__option:hover{
+    background: black
+}
+
+.grades__option:hover .option__desc{
+    display: block;
 }
 
 
-.option__universities:hover .option__icon{
+.interview__option:hover .option__label{
     display:none;
 }
 
+.interview__option:hover{
+    background: black
+}
 
-.option__acceptance:hover .option__icon{
+.interview__option:hover .option__desc{
+    display: block;
+}
+
+
+.programs__option:hover .option__label{
     display:none;
 }
 
+.programs__option:hover{
+    background: black
+}
+
+.programs__option:hover .option__desc{
+    display: block;
+}
+
+
+.universities__option:hover .option__label{
+    display:none;
+}
+
+.universities__option:hover{
+    background: black
+}
+
+.universities__option:hover .option__desc{
+    display: block;
+}
+
+
+.acceptance__option:hover .option__label{
+    display:none;
+}
+
+.acceptance__option:hover{
+    background: black
+}
+
+.acceptance__option:hover .option__desc{
+    display: block;
+}
+
+.option__link{
+    color: var(--blackcolor);
+}
 
 /*AIF Page */
 .aif__info{
@@ -643,9 +666,40 @@ header{
     font-size: 45px;
     text-align: center;
     color: var(--blackcolor);
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
+.aif__heading{
+    position: relative;
+    right: 20%;
+    top: 35%;
+    line-height: 70px;
+}
+
+.aif__header-submenu{
+    background-color: black;
+    color: var(--yellowcolor);
+    font-size: 20px;
+    width: 60%;
+    height: auto;
+    text-align: left;
+    padding:15px 0 15px 24px;
+}
+
+.submenu__link{
+    color: var(--yellowcolor);
+}
+
+.submenu__link:hover{
+    border-bottom: 2px solid var(--yellowcolor);
+}
+
+.aif__header-div{
+    background-color: black;
+    height: 5px;
+}
 .aif__info-link{
     text-decoration: none;
     color: var(--yellowcolor);
