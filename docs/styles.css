@@ -415,6 +415,12 @@ header{
 
 }
 
+/*Subheader*/
+.subheader{
+	
+}
+
+
 /*Footer*/
 .footer{
     background-color: var(--blackcolor);
