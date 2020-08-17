@@ -12,6 +12,7 @@ const server = http.createServer((req, res) => {
     fs.createReadStream('./assets/index.html').pipe(res);
 
     var conn = con.getConnection();
+    
     conn.query("SELECT * FROM discussion.discussion", function (error, results, fields) {
       if (error) throw error;
       results.forEach((discussion) => {
