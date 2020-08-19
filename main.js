@@ -1,25 +1,19 @@
+const express = require('express');
+const app = express();
+const path = require('path');
+const router = express.Router();
+
 const http = require('http');
 const fs = require('fs');
 const con = require("./DBConnection");
 
 const hostname = '127.0.0.1';
 const port = '3000';
-
-//from original file
-const logo = document.querySelectorAll('#applying__svg path')
-
-console.log(logo);
-
-for (let i = 0; i<logo.length; i++){
-    console.log(`letter ${i} is ${logo[i].getTotalLength()}`)
-}
-
-//amanda's addition
 const server = http.createServer((req, res) => {
   if (req.method == 'GET' && req.url == '/') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
-    fs.createReadStream('./docs/index.html').pipe(res);
+    fs.createReadStream('./assets/index.html').pipe(res);
 
     var conn = con.getConnection();
     conn.query("SELECT * FROM discussion.discussion", function (error, results, fields) {
@@ -30,10 +24,10 @@ const server = http.createServer((req, res) => {
     });
     conn.end();
   }
-  else if (req.method == "GET" && req.url == "/docs/styles.css") {
+  else if (req.method == "GET" && req.url == "/assets/styles.css") {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/css');
-    fs.createReadStream('./docs/styles.css').pipe(res);
+    fs.createReadStream('./assets/styles.css').pipe(res);
   }
 });
 

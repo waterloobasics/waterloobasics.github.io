@@ -31,7 +31,6 @@
 /*Base*/
 h1, h2, h3, span, a, p{
     margin: 0;
-
 }
 
 ul{
@@ -119,7 +118,6 @@ header{
     background-color: var(--blackcolor);
     border-radius: 0 0 8px 8px;
     opacity: .8;
-
 }
 
 .nav__subitem{
@@ -154,7 +152,6 @@ header{
     /*animation: fill-logo 5s ease forwards 6s;*/
     fill: none;
 }
-
 
 
 #anim__heading path:nth-child(2){
@@ -364,7 +361,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/uw-sign.jpg);
+    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/docs/img/uw-sign.jpg);
     background-position: center;
     background-size: cover;
     padding: 8.25rem;
@@ -414,12 +411,6 @@ header{
     color: var(--blackcolor);
 
 }
-
-/*Subheader*/
-.subheader{
-	
-}
-
 
 /*Footer*/
 .footer{
@@ -514,7 +505,7 @@ header{
 }
 
 .option__interview{
-    height: 200px
+    height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
 }
@@ -558,3 +549,56 @@ a.rlinks:link, a.rlinks:visited {
     }
 a.rlinks:hover, a.rlinks:active { color: #F6C240;
     }
+
+/*Dicussion Board Page Styling*/
+#discussion-board-title, #questions-title{
+    text-align: center;
+    margin: 5%;
+    font-weight: bold;
+}
+
+.card{
+    margin: 30px;
+    border: 0px;
+}
+
+.card-body{
+    border: 1.5px solid var(--yellowcolor);
+}
+
+hr{
+    border: 1.5px solid ;
+    margin-top: 2em;
+}
+
+label{
+    font-size: 1.25em;
+}
+
+#main-discussion-content{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form-container
+{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.form-text{
+    color: var(--greycolor);
+    font-size: medium;
+}
+
+#user-comment{
+    height: 8em;
+}
+
+.btn{
+    background-color: var(--blackcolor);
+}
+.btn:hover{
+    background-color: var(--greycolor);
+}

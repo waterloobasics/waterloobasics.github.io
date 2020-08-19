@@ -190,6 +190,7 @@ header{
 /*Dicussion Board Main Body*/
 .card{
     background-color:var(--yellowcolor);
+    margin: 30px;
 }
 
 .card-body{
@@ -200,11 +201,6 @@ hr{
     border: 1.5px solid;
     margin-top: 2em;
 }
-
-.card{
-    margin: 30px;
-}
-
 
 label{
     font-size: 1.25em;

@@ -1,0 +1,29 @@
+{
+  "name": "waterloobasics.github.io",
+  "version": "1.0.0",
+  "description": "A guide to help incoming Waterloo students!",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "mysql": "^2.18.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterloobasics/waterloobasics.github.io.git"
+  },
+  "author": "Amanda Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waterloobasics/waterloobasics.github.io/issues"
+  },
+  "homepage": "https://github.com/waterloobasics/waterloobasics.github.io#readme"
+}
