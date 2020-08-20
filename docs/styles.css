@@ -61,6 +61,7 @@ body{
     font-size: var(--normalfont);
     font-weight: var(--font-medium);
     line-height: 1.6;
+    height: 100vh;
 }
 
 /*Layout*/
@@ -309,7 +310,11 @@ header{
 }
 
 /* Main */
+.main{
+    height: 100vh;
+}
 .main__content{
+    height: 15rem;
     display: flex;
     background-color: var(--whitecolor);
     position: relative;
@@ -422,10 +427,16 @@ header{
 
 
 /*Footer*/
+.footer__div{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
 .footer{
     background-color: var(--blackcolor);
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
 }
 .footer__text{
     text-align: center;
@@ -485,7 +496,8 @@ header{
 
 /*Applying Page Options*/
 .options__section{
-    height: 400px;
+    height: 60vh;
+    overflow: hidden;
 
 }
 .options__grid{
@@ -493,49 +505,260 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.aif__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grades__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.interview__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.programs__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.universities__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.acceptance__option{
+    position: relative;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .option__label{
-    color: var(--whitecolor);
     text-align: center;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.option__AIF{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
+    font-size: 32px;
+    
 }
 
-.option__grades{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
+.option__desc{
+    display: none;
+    text-align: center;
+    color: var(--whitecolor);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 38px 0 38px ;
 }
+
+.aif__option:hover .option__label{
+    display:none;
+}
+
+ ammar-branch
+.aif__option:hover{
+    background: black
 
 .option__interview{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+ master
 }
 
-.option__programs{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
+.aif__option:hover .option__desc{
+    display: block;
 }
 
-.option__universities{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
+
+
+.grades__option:hover .option__label{
+    display:none;
 }
 
-.option__acceptance{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
+.grades__option:hover{
+    background: black
 }
+
+.grades__option:hover .option__desc{
+    display: block;
+}
+
+ ammar-branch
+
+.interview__option:hover .option__label{
+    display:none;
+}
+
+.interview__option:hover{
+    background: black
+}
+
+.interview__option:hover .option__desc{
+    display: block;
+}
+
+
+.programs__option:hover .option__label{
+    display:none;
+}
+
+.programs__option:hover{
+    background: black
+}
+
+.programs__option:hover .option__desc{
+    display: block;
+}
+
+
+.universities__option:hover .option__label{
+    display:none;
+}
+
+.universities__option:hover{
+    background: black
+}
+
+.universities__option:hover .option__desc{
+    display: block;
+}
+
+
+.acceptance__option:hover .option__label{
+    display:none;
+}
+
+.acceptance__option:hover{
+    background: black
+}
+
+.acceptance__option:hover .option__desc{
+    display: block;
+}
+
+.option__link{
+    color: var(--blackcolor);
+}
+
+/*AIF Page */
+.aif__info{
+    height: auto;
+    background: var(--whitecolor);
+}
+.aif__header{
+    background-color: var(--whitecolor);
+    font-size: 45px;
+    text-align: center;
+    color: var(--blackcolor);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.aif__heading{
+    position: relative;
+    right: 20%;
+    top: 35%;
+    line-height: 70px;
+}
+
+.aif__header-submenu{
+    background-color: black;
+    color: var(--yellowcolor);
+    font-size: 20px;
+    width: 60%;
+    height: auto;
+    text-align: left;
+    padding:15px 0 15px 24px;
+}
+
+.submenu__link{
+    color: var(--yellowcolor);
+}
+
+.submenu__link:hover{
+    border-bottom: 2px solid var(--yellowcolor);
+}
+
+.aif__header-div{
+    background-color: black;
+    height: 5px;
+}
+.aif__info-link{
+    text-decoration: none;
+    color: var(--yellowcolor);
+    border-bottom: var(--yellowcolor) solid 1px;
+}
+.aif__info-txt{
+    display: block;
+    background: var(--whitecolor);
+    margin: 0px 50px 10px 50px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+.aif__info-header{
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+    color: var(--blackcolor);
+}
+
+.aif__info-para{
+    font-size: 18px;
+    color: var(--blackcolor);
+    list-style-type: disc;
+}
+
+.aif__info-ol-li{
+    font-size: 22px;
+}
+
+.aif__histo{
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.aif__info-ul{
+    list-style-type: disc;
+    margin-left: 38px;
+    font-size: 18px;
+    color: var(--blackcolor);
+}
+
 
 /*Platforms page links*/
 .platforms{
@@ -890,3 +1113,4 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     border-bottom: none;
     padding: 10px;
 }
+ master
