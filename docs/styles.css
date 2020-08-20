@@ -369,7 +369,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(https://waterloobasics.github.io/waterloobasics/img/uw-sign.jpg);
+    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(https://waterloobasics.github.io/img/uw-sign.jpg);
     background-position: center;
     background-size: cover;
     padding: 8.25rem;
