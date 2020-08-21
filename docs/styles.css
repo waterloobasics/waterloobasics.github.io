@@ -1137,13 +1137,7 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
 }
 
 /* get involved  */
-body {
-    display: grid;
-    justify-items: center;
-    background:var(--whitecolor);
-    background-position: center;
-    background-size: cover;
-}
+
 
 .button{
     display: grid;
