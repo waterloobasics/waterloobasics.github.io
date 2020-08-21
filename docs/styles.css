@@ -454,7 +454,7 @@ header{
     width: 100%;
 }
 .footer{
-    background-color:var(--blackcolor);
+    background-color: var(--blackcolor);
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -949,10 +949,12 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     height: 400px;
     z-index: 0;
 }
+
 .incoming__options__grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .option__label{
     color: var(--whitecolor);
     text-align: center;
@@ -960,8 +962,9 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 300px;
+    max-width: 200px;
 }
+
 .option__link{
     color: var(--whitecolor);
 }
@@ -969,82 +972,46 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
 .option__platforms{
     height: 200px;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/docs/img/platforms__button.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.option__platforms:hover .option__desc{
-    display: block;
-}
-.option__platforms:hover .option__label{
-    display: none;
-}
-.option__platforms:hover{
-    background: var(--blackcolor);
+    background-color: var(--yellowcolor);
 }
 
-
-.option__resources{
+.option__ressources{
     height: 200px;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/docs/img/resources__button.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    background-color: var(--yellowcolor);
 }
-.option__resources:hover .option__desc{
-    display: block;
-}
-.option__resources:hover .option__label{
-    display: none;
-}
-.option__resources:hover{
-    background: var(--blackcolor);
-}
-
 
 .option__howtoprepare{
     height: 200px;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/docs/img/howtoprepare__button.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    background-color: var(--yellowcolor);
 }
-.option__howtoprepare:hover .option__desc{
-    display: block;
-}
-.option__howtoprepare:hover .option__label{
-    display: none;
-}
-.option__howtoprepare:hover{
-    background: var(--blackcolor);
-}
-
 
 .option__discussion{
     height: 200px;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/docs/img/discussion__button.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.option__discussion:hover .option__desc{
-    display: block;
-}
-.option__discussion:hover .option__label{
-    display: none;
-}
-.option__discussion:hover{
-    background: var(--blackcolor);
+    background-color: var(--yellowcolor);
 }
 
+.option__platforms:hover{
+    background-color: var(--blackcolor);
+    transition: 0.75s;
+}
+
+.option__ressources:hover{
+    background-color: var(--blackcolor);
+    transition: 0.75s;
+}
+
+.option__howtoprepare:hover{
+    background-color: var(--blackcolor);
+    transition: 0.75s;
+}
+
+.option__discussion:hover{
+    background-color: var(--blackcolor);
+    transition: 0.75s;
+}
 
 /* how to prepare styles*/
 /* how to prepare side nav bar*/
@@ -1077,7 +1044,7 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     position: relative;
     left: 30px;
     font-size: 1rem;
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .option__need{
@@ -1096,6 +1063,7 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
     border-radius: 8px;
+    transition: 0.25s;
 }
 
 
@@ -1103,12 +1071,15 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
     border-radius: 8px;
+    transition: 0.25s;
+
 }
 
 .should__subitem:hover {
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
     border-radius: 8px;
+    transition: 0.25s;
 }
 
 .howtoprepare__bar{
