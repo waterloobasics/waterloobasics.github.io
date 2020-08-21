@@ -652,6 +652,7 @@ header{
 .Deadlines {
   text-align: center;
   padding-top: 20px;
+  font-size: 45px;
 }
 .Deadlines_main {
   margin: 10px;
@@ -659,6 +660,7 @@ header{
   align-items: center;
   justify-content: center;
   text-align: left;
+  font-size: 18px;
 }
 
 .Deadlines_main a {
@@ -667,7 +669,7 @@ header{
 .deadlines_mainhead {
   text-decoration: underline;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .deadlines_mainhead1 {
