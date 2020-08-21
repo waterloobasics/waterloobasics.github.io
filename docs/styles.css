@@ -98,7 +98,7 @@ header{
     padding-right: 1rem;
     text-align: center;
     position: relative;
-    width: 19.7%;
+    width: 20%;
 }
 
 .nav__link{
@@ -120,7 +120,7 @@ header{
 .nav__item:hover .nav__subitem{
     display: block;
     align-items: center;
-    z-index: 9999;
+
 }
 .active__link{
     background-color: var(--yellowcolor);
@@ -144,6 +144,7 @@ header{
     display: none;
     flex-direction: column;
     z-index: 9999;
+
 
 }
 .nav__subitem{
@@ -566,7 +567,7 @@ header{
   padding: 5px 70px;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 .About_Us {
   text-align: center;
@@ -657,7 +658,7 @@ header{
   padding: 5px 70px;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
 }
 
 .Deadlines_main a {
@@ -666,9 +667,14 @@ header{
 .deadlines_mainhead {
   text-decoration: underline;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
 }
 
+.deadlines_mainhead1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
 .Deadline_approximates {
   border: 1px solid #dddddd;
   text-align: left;
