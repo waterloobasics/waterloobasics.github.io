@@ -87,7 +87,7 @@ header{
 /*Nav*/
 
 .nav__list{
-    padding-top: 0.54rem;
+    padding-top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@ header{
 }
 
 .nav__item{
-    padding-right: 1rem;
+    padding-right: 5px;
     text-align: center;
     position: relative;
     width: 20%;
