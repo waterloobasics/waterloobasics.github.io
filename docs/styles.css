@@ -121,6 +121,7 @@ header{
     background-color: var(--blackcolor);
     border-radius: 0 0 8px 8px;
     opacity: .8;
+    z-index: 1000;
 
 }
 
