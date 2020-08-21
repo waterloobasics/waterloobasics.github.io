@@ -1244,3 +1244,7 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     text-decoration: underline;
 }
 
+.gradegraphs{
+    display: inline;
+    justify-items: center;
+}
