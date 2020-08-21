@@ -90,17 +90,27 @@ header{
     padding-top: 0.54rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
 }
 
 .nav__item{
     padding-right: 1rem;
     text-align: center;
+    position: relative;
+    width: 20%;
 }
 
 .nav__link{
     color: var(--yellowcolor);
     font-size: 1.4rem;
     padding: 0 .5rem .2rem .5rem;
+    transition: background 0.4s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav__link:hover{
@@ -108,9 +118,12 @@ header{
     color: var(--blackcolor);
     border-radius: 8px;
 }
+
 .nav__item:hover .nav__subitem{
     display: block;
+    align-items: center;
 }
+
 .active__link{
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
@@ -121,12 +134,17 @@ header{
     background-color: var(--blackcolor);
     border-radius: 0 0 8px 8px;
     opacity: .8;
-    z-index: 1000;
-
+    position: absolute;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 9999;
 }
 
 .nav__subitem{
     display: none;
+    flex-direction: column;
+    z-index: 9999;
 }
 .nav__subitem{
     color: var(--yellowcolor);
@@ -139,13 +157,14 @@ header{
 
 .nav__sublink{
     color: var(--yellowcolor);
+    z-index: 9999;
 }
 .nav__subitem:hover{
     background-color: var(--whitecolor);
     color: var(--blackcolor);
     border-radius: 8px;
+    z-index: 9999;
 }
-
 
 /*Animations*/
 
