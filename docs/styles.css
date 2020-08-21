@@ -584,15 +584,15 @@ header{
     display:none;
 }
 
- ammar-branch
+
 .aif__option:hover{
-    background: black
+    background: "black";
 
 .option__interview{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
- master
+
 }
 
 .aif__option:hover .option__desc{
@@ -606,7 +606,7 @@ header{
 }
 
 .grades__option:hover{
-    background: black
+    background: "black";
 }
 
 .grades__option:hover .option__desc{
@@ -620,7 +620,7 @@ header{
 }
 
 .interview__option:hover{
-    background: black
+    background: "black";
 }
 
 .interview__option:hover .option__desc{
@@ -633,7 +633,7 @@ header{
 }
 
 .programs__option:hover{
-    background: black
+    background: "black";
 }
 
 .programs__option:hover .option__desc{
@@ -646,7 +646,7 @@ header{
 }
 
 .universities__option:hover{
-    background: black
+    background: "black";
 }
 
 .universities__option:hover .option__desc{
@@ -659,7 +659,7 @@ header{
 }
 
 .acceptance__option:hover{
-    background: black
+    background: "black";
 }
 
 .acceptance__option:hover .option__desc{
