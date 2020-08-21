@@ -81,6 +81,7 @@ header{
     top: 0;
     left: 0;
     background-color: var(--blackcolor);
+    z-index: 1000;
 }
 
 /*Nav*/
