@@ -566,7 +566,7 @@ header{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 32px;
-    
+    color: #000000;
 }
 
 .option__desc{
@@ -586,7 +586,7 @@ header{
 
 
 .aif__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .option__interview{
@@ -607,7 +607,7 @@ header{
 }
 
 .grades__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .grades__option:hover .option__desc{
@@ -621,7 +621,7 @@ header{
 }
 
 .interview__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .interview__option:hover .option__desc{
@@ -634,7 +634,7 @@ header{
 }
 
 .programs__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .programs__option:hover .option__desc{
@@ -647,7 +647,7 @@ header{
 }
 
 .universities__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .universities__option:hover .option__desc{
@@ -660,7 +660,7 @@ header{
 }
 
 .acceptance__option:hover{
-    background: "black";
+    background: #000000;
 }
 
 .acceptance__option:hover .option__desc{
@@ -694,7 +694,7 @@ header{
 }
 
 .aif__header-submenu{
-    background-color: "black";
+    background-color: #000000;
     color: var(--yellowcolor);
     font-size: 20px;
     width: 60%;
@@ -712,7 +712,7 @@ header{
 }
 
 .aif__header-div{
-    background-color: "black";
+    background-color: #000000;
     height: 5px;
 }
 .aif__info-link{
