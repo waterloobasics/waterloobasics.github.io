@@ -667,6 +667,87 @@ header{
     display:none;
 }
 
+/*Compare programs page*/
+.programs_title{
+	font-size: var(--bigfont);
+    color: var(--blackcolor);
+    text-align: center;
+    margin: 70px 0px 20px;
+}
+
+.programs_text{
+	font-size: var(--normalfont);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 10px 150px 20px;
+}
+
+.programs_subheader{
+	font-size: var(--h2-font);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 20px 150px;
+}
+
+/*Programs page links*/
+.programsLink__list{
+    padding-top: 0.54rem;
+    display: flex;
+    justify-content: left;
+    margin: 10px 150px 20px;
+}
+
+.programsLink__item{
+    padding-right: 1rem;
+    text-align: left;
+    display: block;
+}
+
+.programsLink__link{
+    color: var(--yellowcolor);
+    font-size: var(--h2-font);
+}
+
+/*Compare univerities page*/
+.uni_title{
+	font-size: var(--bigfont);
+    color: var(--blackcolor);
+    text-align: center;
+    margin: 70px 0px 20px;
+}
+
+.uni_text{
+	font-size: var(--normalfont);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 10px 150px 20px;
+}
+
+.uni_subheader{
+	font-size: var(--h2-font);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 20px 150px;
+}
+
+/*Universities page links*/
+.uniLink__list{
+    padding-top: 0.54rem;
+    display: flex;
+    justify-content: left;
+    margin: 10px 150px 20px;
+}
+
+.uniLink__item{
+    padding-right: 1rem;
+    text-align: center;
+}
+
+.uniLink__link{
+    color: var(--yellowcolor);
+    font-size: var(--h2-font);
+}
+
 .universities__option:hover{
     background: #000000;
 }
@@ -780,7 +861,6 @@ header{
     font-size: 18px;
     color: var(--blackcolor);
 }
-
 
 /*Platforms page links*/
 .platforms{
