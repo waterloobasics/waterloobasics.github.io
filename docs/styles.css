@@ -96,7 +96,7 @@ header{
 }
 
 .nav__item{
-    padding-right: 5px;
+    padding-right: 0.5rem;
     text-align: center;
     position: relative;
     width: 20%;
