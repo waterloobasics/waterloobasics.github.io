@@ -369,7 +369,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(img/uw-sign.jpg);
+    background:linear-gradient(0deg, rgba(227,199, 61, 0.7), rgba(227,199, 61, 0.7)), url(/img/uw-sign.jpg);
     background-position: center;
     background-size: cover;
     padding: 8.25rem;
@@ -508,7 +508,7 @@ header{
 .aif__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/AIF__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -517,7 +517,7 @@ header{
 .grades__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/grades__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -526,7 +526,7 @@ header{
 .interview__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/interview__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -535,7 +535,7 @@ header{
 .programs__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/programs__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -544,7 +544,7 @@ header{
 .universities__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/universities__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -553,7 +553,7 @@ header{
 .acceptance__option{
     position: relative;
     height: 30vh;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(img/acceptance__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -613,7 +613,7 @@ header{
     display: block;
 }
 
- ammar-branch
+
 
 .interview__option:hover .option__label{
     display:none;
@@ -693,7 +693,7 @@ header{
 }
 
 .aif__header-submenu{
-    background-color: black;
+    background-color: "black";
     color: var(--yellowcolor);
     font-size: 20px;
     width: 60%;
@@ -711,7 +711,7 @@ header{
 }
 
 .aif__header-div{
-    background-color: black;
+    background-color: "black";
     height: 5px;
 }
 .aif__info-link{
