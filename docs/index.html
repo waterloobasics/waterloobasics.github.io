@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
     <title>WaterlooBasics | Home</title>
 </head>
@@ -29,7 +32,27 @@
                     
                     </svg>
             </div>
-            
+
+            <div class="mobile-header">
+               <button class="hamburger" id="hamburger">
+                <i class="bx bx-menu" id="nav-icon"></i>
+                <i class="bx bx-x" id="nav-icon-x"></i>
+                </button>
+
+                <div class="mobile-logo">
+                    <svg class= "wb__logo" id="wb-logo"version="1.0" xmlns="http://www.w3.org/2000/svg" width="522px" height="478px" viewBox="0 0 5220 4780" preserveAspectRatio="xMidYMid meet">
+                        <g id="layer101" fill="transparent" stroke="#010000" stroke-width="150">
+                         <path d="M1094 3652 c-9 -6 -120 -370 -589 -1942 -74 -250 -138 -463 -141 -472 -5 -17 15 -18 330 -18 l336 0 6 28 c4 15 67 250 140 522 74 272 159 590 190 705 76 283 76 285 83 285 3 0 31 -78 62 -173 44 -133 250 -763 434 -1322 l13 -40 254 -3 255 -2 42 137 c24 76 56 182 73 236 17 54 27 101 24 105 -4 4 -87 25 -184 48 -133 30 -176 44 -175 55 2 12 231 1016 371 1629 44 189 51 252 26 227 -5 -5 -125 -375 -210 -649 -13 -43 -35 -113 -48 -155 -14 -43 -38 -121 -55 -173 -95 -305 -124 -396 -130 -402 -4 -5 -101 274 -215 620 -114 345 -218 656 -230 692 l-22 65 -314 2 c-173 2 -320 0 -326 -5z"/>
+                         <path d="M3375 3330 c-5 -15 -3 -25 6 -31 17 -11 24 13 11 37 -9 15 -10 15 -17 -6z"/>
+                         <path d="M3236 2721 c-14 -47 -116 -513 -116 -528 0 -9 41 -154 91 -321 50 -167 92 -312 94 -321 2 -9 20 -73 40 -142 l38 -126 -48 -59 c-138 -168 -176 -392 -105 -604 74 -221 279 -390 513 -425 58 -9 58 -9 18 117 -73 231 -153 499 -150 502 2 2 99 32 214 66 116 35 215 65 221 67 6 2 16 -15 22 -39 21 -79 170 -560 176 -566 13 -12 114 101 154 171 61 108 86 216 79 347 -6 114 -24 179 -79 282 -61 116 -205 237 -333 283 -27 10 -55 23 -62 29 -13 12 -54 139 -133 406 -28 96 -76 254 -105 350 -30 96 -65 213 -79 260 -31 102 -64 153 -116 180 -31 16 -129 42 -312 84 -10 2 -19 -3 -22 -13z"/>
+                         </g>
+                        <g id="layer102" fill="transparent" stroke="#f2d500" stroke-width="150">
+                         <path d="M2881 4593 c-17 -66 -213 -927 -218 -958 -3 -16 -29 -136 -58 -265 -30 -129 -122 -532 -205 -895 -83 -363 -152 -667 -153 -674 -1 -11 38 -24 158 -51 88 -21 318 -73 510 -118 400 -92 390 -90 389 -77 -1 6 -43 147 -93 315 -50 168 -91 314 -91 323 0 15 102 481 116 528 3 10 12 15 22 13 183 -42 281 -68 312 -84 52 -27 85 -78 116 -180 14 -47 49 -164 79 -260 29 -96 83 -276 120 -400 37 -124 70 -229 75 -234 14 -14 139 83 192 148 113 140 188 370 188 573 0 161 -46 289 -142 397 -27 31 -46 56 -41 56 4 0 56 5 114 10 187 18 299 66 405 176 194 198 282 587 190 839 -52 145 -161 287 -289 378 -87 62 -224 129 -341 166 -88 28 -1300 311 -1332 311 -7 0 -18 -17 -23 -37z m801 -738 c279 -70 391 -136 434 -257 33 -96 -1 -231 -78 -305 -88 -85 -194 -94 -456 -37 -92 20 -175 38 -186 40 -27 5 -29 9 -17 46 6 18 36 143 66 278 31 135 57 251 60 258 6 18 25 15 177 -23z"/>
+                         </g>
+                        
+                        </svg>
+                </div>
+            </div>
 
             <div class="main__text">
                 <!-- <h1 class="wb__heading"><span class="cap__first">W</span>aterloo <span class="cap__first">B</span>asics</h1> -->
@@ -69,15 +92,12 @@
                         </svg>
                 </div>
 
-                <h3 class="wb__phrase">For Waterloo Engineers, by Waterloo Engineers.</h3>
-
-     
-
-            </div>
+                    <h1 class="mobile__wb-heading"><span style="color: black;">Waterloo</span> Basics</h1>
+                    <h3 class="wb__phrase">For Waterloo Engineers, by Waterloo Engineers.</h3>
+                </div>
         </section>
         
-        
-        <header class="header">
+        <header class="header" id="header">
         <nav class="nav bd-grid">
             <ul class="nav__list">
                 <li class="nav__item"><a href="index.html" class="nav__link active_link">Home</a></li>
@@ -104,6 +124,7 @@
             </ul>
         </nav>
     </header>
+
         
         <section class="landing">
             <div class="landing__buttons">
@@ -128,6 +149,7 @@
             <h1 class="footer__text">Not affliated with the University of Waterloo</h1>
         </footer>
     </main>
+        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="main.js"></script>
 </body>
 </html>
