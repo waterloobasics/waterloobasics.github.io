@@ -770,6 +770,7 @@ header{
     .nav__list{
         display: block;
         justify-content: left;
+        align-items: left;
         background: var(--blackcolor);
         
     }
@@ -777,6 +778,11 @@ header{
     .nav__item{
         text-align: left;
         padding-bottom: 10%;
+        justify-content: left;
+    }
+
+    .nav__link{
+        justify-content: left;
     }
 
     .hamburger{
