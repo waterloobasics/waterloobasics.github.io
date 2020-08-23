@@ -1529,92 +1529,101 @@ a.rlinks:hover, a.rlinks:active {
 
 /*About Us*/
 
-.aboutus_main {
-    margin: 10px;
-    padding: 5px 70px;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    font-size: 18px;
+/*About Us*/
+.About_Us {
+  font-size: 40px;
 }
+.aboutus_main {
+  margin: 10px;
+
+  padding: 5px 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: var(--yellowcolor);
+  font-size: 18px;
+
+}
+
 
 .About_Us {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
 }
-
 /*carousel*/
 
 .container {
-    width: 70%;
-    margin: 10px auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  width: 70%;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .carousel {
-    border: 2px solid #ccc;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
+  border: 2px solid #ccc;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+
 }
 
 .slider {
-    height: 100%;
-    display: flex;
-    width: 200%;
-    border: 1px solid yellow;
-    transition: all 0.3s;
+  height: 100%;
+  display: flex;
+  width: 200%;
+  border: 1px solid red;
+  transition: all 0.3s;
 }
 
 .slider section {
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.slider>section>div>p {
-    display: none;
+.slider > section > div > p{
+  display: none;
 }
 
 .slider section:hover {
-    display: block;
-    background: var(--blackcolor);
-    transition: all 0.3s;
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
 }
 
-.slider section:hover>div>p {
-    display: flex;
-    color: var(--whitecolor);
-    align-items: center;
-    justify-content: center;
+.slider section:hover > div > p{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 .controls .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translatey(-50%);
-    cursor: pointer;
-    font-size: 25px;
-    font-family: serif;
-    font-weight: bold;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  cursor: pointer;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
 }
 
 .arrow.left {
-    left: 10px;
+  left: 10px;
 }
 
 .arrow.right {
-    right: 10px;
+  right: 10px;
 }
 
 .image1 {
-    background-image: url('butterfly.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  background-image: url('butterfly.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
 
 /* Important Deadlines page */
 
