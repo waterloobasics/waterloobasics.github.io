@@ -1563,7 +1563,7 @@ a.rlinks:hover, a.rlinks:active {
 .slider {
     height: 100%;
     display: flex;
-    width: 400%;
+    width: 200%;
     border: 1px solid yellow;
     transition: all 0.3s;
 }
