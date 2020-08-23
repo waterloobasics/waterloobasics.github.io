@@ -24,10 +24,7 @@ router.get('/', function (req, res) {
     if (error) throw error;
     results.forEach((discussion) => {
       console.log(discussion);
-    });
-  });
-  conn.end();
-});
+
 
 //add the router
 app.use('/', router);
