@@ -1448,6 +1448,7 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
 
 .Deadlines_main a {
   text-decoration: underline;
+  color: var(--yellowcolor);
 }
 .deadlines_mainhead {
   text-decoration: underline;
