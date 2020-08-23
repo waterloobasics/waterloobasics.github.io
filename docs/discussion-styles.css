@@ -188,6 +188,15 @@ header{
 }
 
 /*Dicussion Board Main Body*/
+
+position: relative;
+font-size: 6rem;
+color: var(--yellowcolor);
+font-variant: small-caps;
+left: 15%;
+max-width: 100%;
+}
+
 .card{
     background-color:var(--yellowcolor);
     margin: 30px;
