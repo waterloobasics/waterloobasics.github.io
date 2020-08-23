@@ -1621,7 +1621,8 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .Deadlines_main a {
-    text-decoration: underline;
+  text-decoration: underline;
+  color: var(--yellowcolor);
 }
 
 .deadlines_mainhead {
