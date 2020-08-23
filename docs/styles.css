@@ -692,6 +692,7 @@ header{
 .Deadlines__header-div{
     background-color: #000000;
     height: 5px;
+    width: 100%;
 }
 
 /*maintext*/
@@ -732,7 +733,7 @@ header{
 }
 
 .Deadline_approximates th {
-  background-color: grey;
+  background-color: #808080;
 }
 
 .Deadline_approximates tr:nth-child(2) td:nth-child(1) {
