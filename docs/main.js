@@ -57,7 +57,7 @@ var sectionIndex = 0;
 
 function setIndex(){
 
-    slider.style.transform = 'translate(' + (sectionIndex) * -33.3 + '%)';
+    slider.style.transform = 'translate(' + (sectionIndex) * -50 + '%)';
 }
 
 
@@ -67,6 +67,6 @@ leftArrow.addEventListener('click', function() {
 });
 
 rightArrow.addEventListener('click', function() {
-  sectionIndex = (sectionIndex < 2) ? sectionIndex + 1 : 2;
+  sectionIndex = (sectionIndex < 1) ? sectionIndex + 1 : 1;
   setIndex(sectionIndex);
 });
