@@ -1541,7 +1541,7 @@ a.rlinks:hover, a.rlinks:active {
 .About_Us {
     text-align: center;
     padding-top: 20px;
-    font size: 40px;
+    font-size: 40px;
 }
 
 /*carousel*/
@@ -1563,7 +1563,7 @@ a.rlinks:hover, a.rlinks:active {
 .slider {
     height: 100%;
     display: flex;
-    width: 300%;
+    width: 400%;
     border: 1px solid yellow;
     transition: all 0.3s;
 }
