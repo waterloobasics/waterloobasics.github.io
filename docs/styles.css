@@ -692,6 +692,10 @@ header{
 .hamburger{
     display: none;
 }
+
+.mobile__applying-heading{
+    display: none;
+}
 @media screen and (max-width: 820px){
     /*Header*/
     .wb__heading{
@@ -824,6 +828,46 @@ header{
 
     .landing__button{
         font-size: 40px;
+    }
+
+    /*Applying Page*/
+
+    /*Heading*/
+    .mobile__applying-heading{
+        display: block;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0 ;
+        position: relative;
+        top: 20%;
+    }
+
+    /*Options*/
+    .options__section{
+        overflow: auto;
+    }
+    .options__grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .option{
+        height: 20vh;
+    }
+
+    .option__desc{
+        font-size: 12px;
+    }
+
+    /*AIF Page*/
+    .aif__header{
+        font-size: 30px;
+    }
+
+    .aif__header-submenu{
+        font-size: 14px;
+    }
+
+    .submenu__option{
+        padding-bottom: 6px;
     }
 }
 /*Platforms page links*/
