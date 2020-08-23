@@ -7,7 +7,7 @@
 :root{
     --header-height: 3rem;
     --font-medium: 500;
-    --z-fixed:100; 
+    --z-fixed:100;
 }
 
 /* Colors */
@@ -122,6 +122,7 @@ header{
 .nav__item:hover .nav__subitem{
     display: block;
     align-items: center;
+
 }
 
 .active__link{
@@ -139,12 +140,14 @@ header{
     display: flex;
     flex-wrap: wrap;
     z-index: 9999;
+
 }
 
 .nav__subitem{
     display: none;
     flex-direction: column;
     z-index: 9999;
+
 }
 .nav__subitem{
     color: var(--yellowcolor);
@@ -153,6 +156,8 @@ header{
     padding-bottom: .5rem;
     padding-right: .25rem;
     padding-left: .25rem;
+
+
 }
 
 .nav__sublink{
@@ -189,7 +194,7 @@ header{
     stroke-dasharray: 484.5100402832031px;
     stroke-dashoffset: 484.5100402832031px;
     animation: line-anim 2s ease forwards 0.3s;
-} 
+}
 
 #anim__heading path:nth-child(4){
     stroke-dasharray: 329.1600341796875px;
@@ -294,7 +299,7 @@ header{
     to{
         color:var(--greycolor);
     }
-    
+
 }
 
 /*Logo Animation*/
@@ -364,7 +369,7 @@ header{
     font-size: var(--h2-font);
     color: var(--greycolor);
     animation: unhide 8s;
-    
+
 }
 
 .logo{
@@ -937,18 +942,21 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+    z-index: -1;
 }
 
 .option__ressources{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+    z-index: -1;
 }
 
 .option__howtoprepare{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+    z-index: -1;
 }
 
 .option__discussion{
@@ -1294,3 +1302,235 @@ a.rlinks:hover, a.rlinks:active { color: #F6C240;
     justify-items: center;
 }
 
+/*About Us*/
+
+.aboutus_main {
+  margin: 10px;
+  padding: 5px 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.About_Us {
+  text-align: center;
+  padding-top: 20px;
+}
+/*carousel*/
+
+.container {
+  width: 50%;
+  margin: 10px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel {
+  border: 2px solid #ccc;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.slider {
+  height: 100%;
+  display: flex;
+  width: 300%;
+  border: 1px solid red;
+  transition: all 0.3s;
+}
+
+.slider section {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.slider > section > div > p{
+  display: none;
+}
+
+.slider section:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+
+.slider section:hover > div > p{
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  cursor: pointer;
+  font-size: 25px;
+  font-family: serif;
+  font-weight: bold;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.image1 {
+  background-image: url('butterfly.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Important Deadlines page */
+
+
+
+/*submenu*/
+.deadlines__header{
+    background-color: var(--whitecolor);
+    font-size: 40px;
+    text-align: center;
+    color: var(--blackcolor);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.Deadlines_heading{
+    position: relative;
+    right: 20%;
+    top: 20%;
+    line-height: 75px;
+}
+
+
+.deadlines__header-submenu{
+    background-color: #000000;
+    color: var(--yellowcolor);
+    font-size: 20px;
+    width: 60%;
+    height: 160px;
+    text-align: left;
+    padding:70px 0 15px 24px;
+}
+
+.submenu__link{
+    color: var(--yellowcolor);
+}
+
+.submenu__link:hover{
+    border-bottom: 2px solid var(--yellowcolor);
+}
+
+.Deadlines__header-div{
+    background-color: #000000;
+    height: 5px;
+    width: 100%;
+}
+
+/*maintext*/
+.Deadlines_main {
+  margin: 10px;
+  padding: 5px 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: 18px;
+}
+
+.Deadlines_main a {
+  text-decoration: underline;
+}
+.deadlines_mainhead {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.deadlines_mainhead1 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+.Deadline_approximates {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/*table*/ 
+
+.Deadline_approximates th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.Deadline_approximates th {
+  background-color: #808080;
+}
+
+.Deadline_approximates tr:nth-child(2) td:nth-child(1) {
+  background-color: rgb(255, 242, 204);
+}
+
+.Deadline_approximates tr:nth-child(3) td:nth-child(1) {
+  background-color: rgb(244, 204, 204);
+}
+
+.Deadline_approximates tr:nth-child(4) td:nth-child(1) {
+  background-color: rgb(244, 204, 204);
+}
+
+.Deadline_approximates tr:nth-child(5) td:nth-child(1) {
+  background-color: rgb(217, 234, 211);
+}
+
+.Deadline_approximates tr:nth-child(6) td:nth-child(1) {
+  background-color: rgb(217, 234, 211);
+}
+
+.Deadline_approximates tr:nth-child(7) td:nth-child(1) {
+  background-color: rgb(217, 234, 211);
+}
+
+.Deadline_approximates tr:nth-child(8) td:nth-child(1) {
+  background-color: rgb(217, 234, 211);
+}
+
+.Deadline_approximates tr:nth-child(9) td:nth-child(1) {
+  background-color: rgb(164, 194, 244);
+}
+
+.Deadline_approximates tr:nth-child(10) td:nth-child(1) {
+  background-color: rgb(164, 194, 244);
+}
+
+.Deadline_approximates tr:nth-child(11) td:nth-child(1) {
+  background-color: rgb(164, 194, 244);
+}
+
+.Deadline_approximates tr:nth-child(12) td:nth-child(1) {
+  background-color: rgb(217, 210, 233);
+}
+
+.Deadline_approximates tr:nth-child(13) td:nth-child(1) {
+  background-color: rgb(194, 123, 160);
+}
+
+.Deadline_approximates tr:nth-child(14) td:nth-child(1) {
+  background-color: rgb(194, 123, 160);
+}
+
+.Deadline_approximates tr:nth-child(15) td:nth-child(1) {
+  background-color: rgb(194, 123, 160);
+}
