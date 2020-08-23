@@ -1,14 +1,10 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const router = express.Router();
-
 const http = require('http');
 const fs = require('fs');
 const con = require("./DBConnection");
 
 const hostname = '127.0.0.1';
 const port = '3000';
+
 const server = http.createServer((req, res) => {
   if (req.method == 'GET' && req.url == '/') {
     res.statusCode = 200;
