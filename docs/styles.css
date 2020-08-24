@@ -644,144 +644,6 @@ header {
     display: none;
 }
 
-/*Compare programs page*/
-
-.programs_title {
-    font-size: var(--bigfont);
-    color: var(--blackcolor);
-    text-align: center;
-    margin: 70px 0px 20px;
-}
-
-.programs_text {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 10px 150px 40px;
-}
-
-.programs_subheader {
-    font-size: var(--h2-font);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 20px 150px;
-}
-
-.programs_intro {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 40px 150px 40px;
-}
-
-/*Programs page links*/
-
-.programs__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.programs__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.programs__heading {
-    position: relative;
-    right: 20%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.programs__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 65%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.programs__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
-/*Compare univerities page*/
-
-.uni_title {
-    font-size: var(--bigfont);
-    color: var(--blackcolor);
-    text-align: center;
-    margin: 70px 0px 20px;
-}
-
-.uni_text {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 10px 150px 40px;
-}
-
-.uni_subheader {
-    font-size: var(--h2-font);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 20px 150px;
-}
-
-.uni_intro {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 40px 150px 40px;
-}
-
-/*Programs page links*/
-
-.uni__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.uni__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-}
-
-.uni__heading {
-    position: relative;
-    right: 10%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.uni__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 75%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.uni__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
 /*AIF Page */
 
 .aif__info {
@@ -1810,6 +1672,11 @@ a.rlinks:hover, a.rlinks:active {
 .programs__header {
     background-color: var(--whitecolor);
     font-size: 45px;
+    text-align: center;
+    color: var(--blackcolor);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
 .programs__heading {
