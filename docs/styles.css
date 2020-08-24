@@ -1795,6 +1795,10 @@ a.rlinks:hover, a.rlinks:active {
     text-align: left;
     margin: 40px 150px 40px;
 }
+.programs__link{
+    text-decoration: underline;
+    color: var(--greycolor);
+}
 
 /*Programs page links*/
 
