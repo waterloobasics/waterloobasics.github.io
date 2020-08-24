@@ -892,6 +892,12 @@ header {
 .mobile__applying-heading{
     display: none;
 }
+
+@keyframes fill-w-white {
+    to{
+        fill: #ffffff
+    }
+}
 @media screen and (max-width: 820px){
     /*Header*/
     .wb__heading {
@@ -931,6 +937,10 @@ header {
         position: relative;
         top: 40%;
         transform: translate(0, -50%);
+    }
+
+    #layer101{
+        animation: fill-w-white 2.2s ease forwards 1.5s;
     }
     /*Nav*/
     .mobile-header {
