@@ -1391,6 +1391,10 @@ body {
 	text-align: left;
 	margin: 40px 150px 40px;
 }
+.programs__link{
+    text-decoration: underline;
+    color: var(--greycolor);
+}
 
 /*Programs page links*/
 .programs__info{
@@ -1496,3 +1500,4 @@ body {
     background-color: #000000;
     height: 5px;
 }
+
