@@ -430,6 +430,7 @@ header {
     border-radius: 32px;
     font-size: var(--bigfont);
     color: var(--yellowcolor);
+    transition: 0.3s;
 }
 
 .landing__text {
