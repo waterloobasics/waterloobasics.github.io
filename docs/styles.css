@@ -838,8 +838,8 @@ header {
 .aif__info-txt {
     display: block;
     background: var(--whitecolor);
-    margin: 0px 50px 10px 50px;
-    padding: 5px 5px 5px 5px;
+    margin: 2% 10% 5% 10%;
+    padding: 0 5px 100px 5px;
     border-radius: 5px;
 }
 
