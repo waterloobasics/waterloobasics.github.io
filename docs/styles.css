@@ -109,17 +109,17 @@ header {
     color: var(--yellowcolor);
     font-size: 1.4rem;
     padding: 0 .5rem .2rem .5rem;
-    transition: background 0.4s;
+    transition: 0.4s;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 8px;
 }
 
 .nav__link:hover {
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
-    border-radius: 8px;
 }
 
 .nav__item:hover .nav__subitem {
@@ -157,6 +157,7 @@ header {
     padding-bottom: .5rem;
     padding-right: .25rem;
     padding-left: .25rem;
+    border-radius: 8px;
 }
 
 .nav__sublink {
@@ -167,7 +168,6 @@ header {
 .nav__subitem:hover {
     background-color: var(--whitecolor);
     color: var(--blackcolor);
-    border-radius: 8px;
     z-index: 9999;
 }
 
