@@ -1803,3 +1803,83 @@ a.rlinks:hover, a.rlinks:active {
     top: 20%;
     line-height: 75px;
 }
+
+
+/* Discussion Annimation*/
+
+
+#discussion__svg path:nth-child(0) {
+    stroke-dasharray: 626.48095703125px;
+    stroke-dashoffset: 626.48095703125px;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#discussion__svg path:nth-child(1) {
+    stroke-dasharray: 222.91200256347656px;
+    stroke-dashoffset: 222.91200256347656px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#discussion__svg path:nth-child(2) {
+    stroke-dasharray: 506.4573059082031px;
+    stroke-dashoffset: 506.4573059082031px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#discussion__svg path:nth-child(3) {
+    stroke-dasharray: 465.209228515625px;
+    stroke-dashoffset: 465.209228515625px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#discussion__svg path:nth-child(4) {
+    stroke-dasharray: 506.457763671875px;
+    stroke-dashoffset: 506.457763671875px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#discussion__svg path:nth-child(5) {
+    stroke-dasharray: 506.457763671875px;
+    stroke-dashoffset: 506.457763671875px;
+    animation: line-anim 2s ease forwards 1.8s;
+}
+
+#discussion__svg path:nth-child(6) {
+    stroke-dasharray: 506.457763671875px;
+    stroke-dashoffset: 506.457763671875px;
+    animation: line-anim 2s ease forwards 2.1s;
+}
+
+#discussion__svg path:nth-child(7) {
+    stroke-dasharray: 506.457763671875px;
+    stroke-dashoffset: 506.457763671875px;
+    animation: line-anim 2.5s ease forwards 2.4s;
+}
+
+#discussion__svg path:nth-child(8) {
+    stroke-dasharray: 506.457763671875px;
+    stroke-dashoffset: 506.457763671875px;
+    animation: line-anim 2.5s ease forwards 2.7s;
+}
+
+#discussion__svg path:nth-child(9) {
+    stroke-dasharray: 465.209228515625px;
+    stroke-dashoffset: 465.209228515625px;
+    animation: line-anim 2.5s ease forwards 3.0s;
+}
+
+#discussion__svg path:nth-child(10) {
+    stroke-dasharray: 465.209228515625px;
+    stroke-dashoffset: 465.209228515625px;
+    animation: line-anim 2.5s ease forwards 3.3s;
+}
+
+#discussion__svg path:nth-child(11) {
+    stroke-dasharray: 626.48095703125px;
+    stroke-dashoffset: 626.48095703125px;
+    animation: line-anim 2.5s ease forwards 3.6s;
+}
+
+#discussion__svg-paths {
+    animation: fill-logo 0.5s ease forwards 3s;
+}
