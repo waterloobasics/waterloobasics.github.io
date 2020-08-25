@@ -109,17 +109,17 @@ header {
     color: var(--yellowcolor);
     font-size: 1.4rem;
     padding: 0 .5rem .2rem .5rem;
-    transition: background 0.4s;
+    transition: 0.4s;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 8px;
 }
 
 .nav__link:hover {
     background-color: var(--yellowcolor);
     color: var(--blackcolor);
-    border-radius: 8px;
 }
 
 .nav__item:hover .nav__subitem {
@@ -157,6 +157,7 @@ header {
     padding-bottom: .5rem;
     padding-right: .25rem;
     padding-left: .25rem;
+    border-radius: 8px;
 }
 
 .nav__sublink {
@@ -167,7 +168,6 @@ header {
 .nav__subitem:hover {
     background-color: var(--whitecolor);
     color: var(--blackcolor);
-    border-radius: 8px;
     z-index: 9999;
 }
 
@@ -430,6 +430,7 @@ header {
     border-radius: 32px;
     font-size: var(--bigfont);
     color: var(--yellowcolor);
+    transition: 0.3s;
 }
 
 .landing__text {
@@ -642,144 +643,6 @@ header {
 
 .universities__option:hover .option__label {
     display: none;
-}
-
-/*Compare programs page*/
-
-.programs_title {
-    font-size: var(--bigfont);
-    color: var(--blackcolor);
-    text-align: center;
-    margin: 70px 0px 20px;
-}
-
-.programs_text {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 10px 150px 40px;
-}
-
-.programs_subheader {
-    font-size: var(--h2-font);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 20px 150px;
-}
-
-.programs_intro {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 40px 150px 40px;
-}
-
-/*Programs page links*/
-
-.programs__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.programs__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.programs__heading {
-    position: relative;
-    right: 20%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.programs__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 65%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.programs__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
-/*Compare univerities page*/
-
-.uni_title {
-    font-size: var(--bigfont);
-    color: var(--blackcolor);
-    text-align: center;
-    margin: 70px 0px 20px;
-}
-
-.uni_text {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 10px 150px 40px;
-}
-
-.uni_subheader {
-    font-size: var(--h2-font);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 20px 150px;
-}
-
-.uni_intro {
-    font-size: var(--normalfont);
-    color: var(--blackcolor);
-    text-align: left;
-    margin: 40px 150px 40px;
-}
-
-/*Programs page links*/
-
-.uni__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.uni__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-}
-
-.uni__heading {
-    position: relative;
-    right: 10%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.uni__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 75%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.uni__header-div {
-    background-color: #000000;
-    height: 5px;
 }
 
 /*AIF Page */
@@ -1087,7 +950,7 @@ a.rlinks:hover, a.rlinks:active {
     color: #F6C240;
 }
 
-/*Icoming page styles*/
+/*Incoming page styles*/
 
 /*Incoming Annimation*/
 
@@ -1174,7 +1037,7 @@ a.rlinks:hover, a.rlinks:active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .option__link {
@@ -1184,48 +1047,80 @@ a.rlinks:hover, a.rlinks:active {
 .option__platforms {
     height: 200px;
     width: auto;
-    background-color: var(--yellowcolor);
-    z-index: -1;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/platforms__icon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.option__platforms:hover .option__desc{
+    display: block;
+}
+.option__platforms:hover .option__label{
+    display: none;
+}
+.option__platforms:hover{
+    background: var(--blackcolor);
 }
 
-.option__ressources {
+
+.option__resources {
     height: 200px;
     width: auto;
-    background-color: var(--yellowcolor);
-    z-index: -1;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/resources__icon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
+.option__resources:hover .option__desc{
+    display: block;
+}
+.option__resources:hover .option__label{
+    display: none;
+}
+.option__resources:hover{
+    background: var(--blackcolor);
+}
+
 
 .option__howtoprepare {
     height: 200px;
     width: auto;
-    background-color: var(--yellowcolor);
-    z-index: -1;
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/howtoprepare__icon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.option__howtoprepare:hover .option__desc{
+    display: block;
+}
+.option__howtoprepare:hover .option__label{
+    display: none;
+}
+.option__howtoprepare:hover{
+    background: var(--blackcolor);
 }
 
-.option__discussion {
+
+.option__getinvolved {
     height: 200px;
     width: auto;
-    background-color: var(--yellowcolor);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
-
-.option__platforms:hover {
-    background-color: var(--blackcolor);
-    transition: 0.75s;
+.option__getinvolved:hover .option__desc{
+    display: block;
 }
-
-.option__ressources:hover {
-    background-color: var(--blackcolor);
-    transition: 0.75s;
+.option__getinvolved:hover .option__label{
+    display: none;
 }
-
-.option__howtoprepare:hover {
-    background-color: var(--blackcolor);
-    transition: 0.75s;
-}
-
-.option__discussion:hover {
-    background-color: var(--blackcolor);
-    transition: 0.75s;
+.option__getinvolved:hover{
+    background: var(--blackcolor);
 }
 
 /* how to prepare styles*/
@@ -1237,23 +1132,16 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .side__bar {
-    font-size: 1.2rem;
-    padding: 0 .5rem .2rem .5rem;
-    background-color: var(--blackcolor);
-    color: white;
-    max-width: 20%;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+    font-size: 20px;
+    padding: 15px 0 15px 24px;
+    background-color: black;
+    min-width: 300px;
     position: sticky;
 }
 
 .options__howtoprepare {
     position: relative;
-    top: 10px;
+    top: 5px;
     max-width: 100%;
 }
 
@@ -1265,39 +1153,30 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__need {
-    color: white;
+    color: var(--yellowcolor);
 }
 
 .option__should {
-    color: white;
+    color: var(--yellowcolor);
 }
 
 .should__subitem {
-    color: white;
+    color: var(--yellowcolor);
 }
 
 .option__need:hover {
-    background-color: var(--yellowcolor);
-    color: var(--blackcolor);
-    border-radius: 8px;
-    transition: 0.25s;
+    border-bottom: 2px solid var(--yellowcolor);
 }
 
 .option__should:hover {
-    background-color: var(--yellowcolor);
-    color: var(--blackcolor);
-    border-radius: 8px;
-    transition: 0.25s;
+    border-bottom: 2px solid var(--yellowcolor);
 }
 
 .should__subitem:hover {
-    background-color: var(--yellowcolor);
-    color: var(--blackcolor);
-    border-radius: 8px;
-    transition: 0.25s;
+    border-bottom: 2px solid var(--yellowcolor);
 }
 
-.howtoprepare__bar {
+.howtoprepare__bar{
     display: flex;
     border: 1px;
     border-color: var(--blackcolor);
@@ -1311,7 +1190,7 @@ a.rlinks:hover, a.rlinks:active {
     z-index: -1;
 }
 
-.howtoprepare__title {
+.howtoprepare__title{
     position: relative;
     font-size: 6rem;
     color: var(--yellowcolor);
@@ -1320,7 +1199,7 @@ a.rlinks:hover, a.rlinks:active {
     max-width: 100%;
 }
 
-.howtoprepare__sub__title {
+.howtoprepare__sub__title{
     position: relative;
     left: 16%;
     bottom: 20%;
@@ -1331,13 +1210,13 @@ a.rlinks:hover, a.rlinks:active {
 
 /*how to prepare main content*/
 
-.howtoprepare__need__list {
+.howtoprepare__need__list{
     list-style-type: square;
     color: black;
     max-width: 100%;
 }
 
-.howtoprepare__should__list {
+.howtoprepare__should__list{
     list-style-type: square;
     color: black;
     max-width: 100%;
@@ -1349,19 +1228,19 @@ a.rlinks:hover, a.rlinks:active {
     border-bottom: none;
 }
 
-.howtoprepare__link {
+.howtoprepare__link{
     text-decoration: underline;
     color: var(--greycolor);
 }
 
-.howtoprepare__content {
+.howtoprepare__content{
     background-color: var(--whitecolor);
     max-width: 100%;
     position: relative;
     z-index: -1;
 }
 
-.howtoprepare__subtitle {
+.howtoprepare__subtitle{
     position: relative;
     left: 4%;
     font-size: 2rem;
@@ -1382,7 +1261,7 @@ a.rlinks:hover, a.rlinks:active {
     max-width: 80%;
 }
 
-.howtoprepare__item {
+.howtoprepare__item{
     position: relative;
     left: 10%;
     color: var(--blackcolor);
@@ -1391,31 +1270,31 @@ a.rlinks:hover, a.rlinks:active {
     font-size: 1.2rem;
 }
 
-.howtoprepare__subitem {
+.howtoprepare__subitem{
     position: relative;
     left: 20%;
-    max-width: 75%;
+    max-width:75%;
     padding: 5px;
     list-style-type: circle;
 }
 
-.howtoprepare__subitem2 {
+.howtoprepare__subitem2{
     position: relative;
     left: 30%;
-    max-width: 50%;
+    max-width:50%;
     padding: 5px;
     list-style-type: circle;
 }
 
-.howtoprepare__subitem3 {
+.howtoprepare__subitem3{
     position: relative;
     left: 40%;
-    max-width: 50%;
+    max-width:50%;
     padding: 5px;
     list-style-type: circle;
 }
 
-.howtoprepare__should__subtitle {
+.howtoprepare__should__subtitle{
     position: relative;
     left: 5%;
     font-size: 1.3rem;
@@ -1430,6 +1309,7 @@ a.rlinks:hover, a.rlinks:active {
     border-bottom: none;
     padding: 10px;
 }
+
 
 /* get involved  */
 
@@ -1820,6 +1700,11 @@ a.rlinks:hover, a.rlinks:active {
 .programs__header {
     background-color: var(--whitecolor);
     font-size: 45px;
+    text-align: center;
+    color: var(--blackcolor);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
 }
 
 .programs__heading {
