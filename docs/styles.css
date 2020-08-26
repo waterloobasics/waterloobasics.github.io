@@ -1131,7 +1131,7 @@ a.rlinks:hover, a.rlinks:active {
 
 .option__getinvolved:hover{
     background: var(--blackcolor);
-    animation: unhide__optioninv .5s;
+    animation: unhide__option .5s;
 }
 
 
