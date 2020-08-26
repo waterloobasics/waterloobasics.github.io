@@ -1119,11 +1119,8 @@ a.rlinks:hover, a.rlinks:active {
 .option__getinvolved:hover .option__label{
     display: none;
 }
-.option__getinvolved:hover{
-    background: var(--blackcolor);
-}
 
-@keyframes unhide__option {
+@keyframes unhide__optioninv {
     from {
         background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
     }
@@ -1132,16 +1129,17 @@ a.rlinks:hover, a.rlinks:active {
     }
 }
 
+.option__getinvolved:hover{
+    background: var(--blackcolor);
+    animation: unhide__optioninv .5s;
 }
 
-.option__getinvolved:hover {
-    background: #000000;
-    animation: unhide__option .5s;
-}
 
-.option:hover .option__desc {
-    display: block;
-}
+
+
+
+
+
 
 /* how to prepare styles*/
 
