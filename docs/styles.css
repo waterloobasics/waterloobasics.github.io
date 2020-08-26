@@ -1061,8 +1061,6 @@ a.rlinks:hover, a.rlinks:active {
 }
 .option__platforms:hover{
     background: var(--blackcolor);
-    transform-style: preserve-3d;
-    transition: background 0.4s;
 }
 
 
@@ -1083,8 +1081,6 @@ a.rlinks:hover, a.rlinks:active {
 }
 .option__resources:hover{
     background: var(--blackcolor);
-    transform-style: preserve-3d;
-    transition: background 0.4s;
 }
 
 
@@ -1105,8 +1101,6 @@ a.rlinks:hover, a.rlinks:active {
 }
 .option__howtoprepare:hover{
     background: var(--blackcolor);
-    transform-style: preserve-3d;
-    transition: background 0.4s;
 }
 
 
@@ -1127,8 +1121,26 @@ a.rlinks:hover, a.rlinks:active {
 }
 .option__getinvolved:hover{
     background: var(--blackcolor);
-    transform-style: preserve-3d;
-    transition: background 0.4s;
+}
+
+@keyframes unhide__option {
+    from {
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
+    }
+    to {
+        background: #000000;
+    }
+}
+
+}
+
+.option__getinvolved:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+.option:hover .option__desc {
+    display: block;
 }
 
 /* how to prepare styles*/
