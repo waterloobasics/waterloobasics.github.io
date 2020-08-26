@@ -1070,7 +1070,7 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__platforms:hover{
-    background: var(--blackcolor);
+    background: #000000;
     animation: unhide__optionplat .5s;
 }
 
@@ -1101,7 +1101,7 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__resources:hover{
-    background: var(--blackcolor);
+    background: #000000;
     animation: unhide__optionres .5s;
 }
 
@@ -1132,7 +1132,7 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__howtoprepare:hover{
-    background: var(--blackcolor);
+    background: #000000;
     animation: unhide__optionprep .5s;
 }
 
@@ -1163,16 +1163,9 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__getinvolved:hover{
-    background: var(--blackcolor);
+    background: #000000;
     animation: unhide__optioninv .5s;
 }
-
-
-
-
-
-
-
 
 /* how to prepare styles*/
 
