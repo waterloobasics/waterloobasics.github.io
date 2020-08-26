@@ -1059,9 +1059,19 @@ a.rlinks:hover, a.rlinks:active {
 .option__platforms:hover .option__label{
     display: none;
 }
+
+@keyframes unhide__optionplat {
+    from {
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/platforms__icon.jpg);
+    }
+    to {
+        background: #000000;
+    }
+}
+
 .option__platforms:hover{
     background: var(--blackcolor);
-    animation: unhide__option .5s;
+    animation: unhide__optionplat .5s;
 }
 
 
@@ -1080,9 +1090,19 @@ a.rlinks:hover, a.rlinks:active {
 .option__resources:hover .option__label{
     display: none;
 }
+
+@keyframes unhide__optionres {
+    from {
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/resources__icon.jpg);
+    }
+    to {
+        background: #000000;
+    }
+}
+
 .option__resources:hover{
     background: var(--blackcolor);
-    animation: unhide__option .5s;
+    animation: unhide__optionres .5s;
 }
 
 
@@ -1101,9 +1121,19 @@ a.rlinks:hover, a.rlinks:active {
 .option__howtoprepare:hover .option__label{
     display: none;
 }
+
+@keyframes unhide__optionprep {
+    from {
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/howtoprepare__icon.jpg);
+    }
+    to {
+        background: #000000;
+    }
+}
+
 .option__howtoprepare:hover{
     background: var(--blackcolor);
-    animation: unhide__option .5s;
+    animation: unhide__optionprep .5s;
 }
 
 
@@ -1134,7 +1164,7 @@ a.rlinks:hover, a.rlinks:active {
 
 .option__getinvolved:hover{
     background: var(--blackcolor);
-    animation: unhide__option .5s;
+    animation: unhide__optioninv .5s;
 }
 
 
