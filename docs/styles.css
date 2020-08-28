@@ -671,7 +671,7 @@ header {
 .aif__heading {
     position: relative;
     right: 20%;
-    top: 35%;
+    align-self: center;
     line-height: 70px;
 }
 
@@ -1397,6 +1397,7 @@ a.rlinks:hover, a.rlinks:active {
     color: var(--yellowcolor);
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: 0.3s;
 }
 
 .button_text:hover {
@@ -1424,6 +1425,7 @@ a.rlinks:hover, a.rlinks:active {
     margin-top: 20px;
     justify-content: center;
     width: 10em;
+    transition: 0.3s;
 }
 
 .button_text1:hover {
@@ -1491,15 +1493,14 @@ a.rlinks:hover, a.rlinks:active {
   font-size: 40px;
 }
 .aboutus_main {
-  margin: 10px;
-
-  padding: 5px 70px;
+  margin: 0px 40px;
+border-radius: 10px;
+  padding: 40px 50px;
   align-items: center;
   justify-content: center;
   text-align: left;
   background-color: var(--yellowcolor);
   font-size: 18px;
-
 }
 
 
@@ -1521,7 +1522,7 @@ a.rlinks:hover, a.rlinks:active {
   height: 200px;
   position: relative;
   overflow: hidden;
-
+  border-radius: 10px;
 }
 
 .slider {
