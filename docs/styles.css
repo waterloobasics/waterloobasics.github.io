@@ -595,8 +595,10 @@ header {
     display: none;
 }
 
-.aif__option:hover {
-    background: #000000;
+.option__interview{
+    height: 200px;
+    width: auto;
+    background-color: var(--yellowcolor);
 }
 
 .option__interview {
@@ -669,7 +671,7 @@ header {
 .aif__heading {
     position: relative;
     right: 20%;
-    top: 35%;
+    align-self: center;
     line-height: 70px;
 }
 
@@ -1395,6 +1397,7 @@ a.rlinks:hover, a.rlinks:active {
     color: var(--yellowcolor);
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: 0.3s;
 }
 
 .button_text:hover {
@@ -1422,6 +1425,7 @@ a.rlinks:hover, a.rlinks:active {
     margin-top: 20px;
     justify-content: center;
     width: 10em;
+    transition: 0.3s;
 }
 
 .button_text1:hover {
@@ -1537,15 +1541,14 @@ animation: line-anim 2s ease forwards 1.8s;
   font-size: 40px;
 }
 .aboutus_main {
-  margin: 10px;
-
-  padding: 5px 70px;
+  margin: 0px 40px;
+border-radius: 10px;
+  padding: 40px 50px;
   align-items: center;
   justify-content: center;
   text-align: left;
   background-color: var(--yellowcolor);
   font-size: 18px;
-
 }
 
 
@@ -1567,7 +1570,7 @@ animation: line-anim 2s ease forwards 1.8s;
   height: 200px;
   position: relative;
   overflow: hidden;
-
+  border-radius: 10px;
 }
 
 .slider {
@@ -1916,4 +1919,27 @@ animation: line-anim 2s ease forwards 1.8s;
     right: 20%;
     top: 20%;
     line-height: 75px;
+}
+
+/* Customize the scroll bar for Chrome, Safari, and Edge */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(254, 255, 179);
 }
