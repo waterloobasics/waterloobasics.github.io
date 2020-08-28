@@ -162,7 +162,7 @@ header {
 
 .nav__sublink {
     color: var(--yellowcolor);
-    z-index: 9999;
+
 }
 
 .nav__subitem:hover {
@@ -179,6 +179,7 @@ header {
     padding: 0;
     /*animation: fill-logo 5s ease forwards 6s;*/
     fill: none;
+    width: 100%;
 }
 
 #anim__heading path:nth-child(2) {
@@ -348,9 +349,10 @@ header {
 }
 
 .main__text {
-    padding-left: 3rem;
-    padding-bottom: .5rem;
-    padding-top: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -15%);
+    padding-left: 2rem;
 }
 
 .main__text h1 {
@@ -381,6 +383,8 @@ header {
     margin-left: auto;
     display: block;
 }
+
+
 
 /*Divider*/
 
@@ -773,7 +777,7 @@ header {
     }
     .wb__phrase {
         position: relative;
-        top: 30%;
+        top: 15%;
         left: 0;
         font-size: 18px;
         transform: translate(0, -50%);
@@ -798,8 +802,9 @@ header {
         font-size: 40px;
         line-height: 60px;
         position: relative;
-        top: 40%;
+        top: 25%;
         transform: translate(0, -50%);
+
     }
 
     #layer101{
@@ -817,7 +822,7 @@ header {
     }
     .header {
         width: 60%;
-        height: 60%;
+        height: 100%;
         position: absolute;
         background: var(--blackcolor);
         top: 6rem;
@@ -833,16 +838,28 @@ header {
     .nav__list {
         display: block;
         justify-content: left;
-        align-items: left;
         background: var(--blackcolor);
     }
     .nav__item {
         text-align: left;
         padding-bottom: 10%;
         justify-content: left;
+        width: 50%;
+        padding-bottom: 0;
     }
     .nav__link {
         justify-content: left;
+    }
+
+    .nav__sublist{
+        position: relative;
+        list-style: outside;
+    }
+    .nav__subitem{
+        display: block;
+        font-size: 16px;
+        padding-left: 2rem;
+        list-style: disc;
     }
     .hamburger {
         display: block;
@@ -887,7 +904,7 @@ header {
         margin: 0 0 0 0;
         padding: 0 0 0 0 ;
         position: relative;
-        top: 20%;
+        top: 10%;
     }
 
     /*Options*/
@@ -904,6 +921,10 @@ header {
 
     .option__desc{
         font-size: 12px;
+    }
+
+    .option__label{
+        font-size: 28px;
     }
 
     /*AIF Page*/
@@ -1014,14 +1035,14 @@ a.rlinks:hover, a.rlinks:active {
     animation: line-anim 2s ease forwards 3.0s;
 }
 
-#incoming__svg {
-    animation: fill-logo 0.5s ease forwards 3s;
+#incoming__svg-paths {
+    animation: fill-logo 2s ease forwards 3.2s;
 }
 
 /*Incoming Options*/
 
 .incoming__options__section {
-    height: 400px;
+    height: 60vh;
     z-index: 0;
 }
 
@@ -1045,7 +1066,7 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .option__platforms {
-    height: 200px;
+    height: 30vh;
     width: auto;
     background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/platforms__icon.jpg);
     background-size: cover;
@@ -1065,7 +1086,7 @@ a.rlinks:hover, a.rlinks:active {
 
 
 .option__resources {
-    height: 200px;
+    height: 30vh;
     width: auto;
     background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/resources__icon.jpg);
     background-size: cover;
@@ -1085,7 +1106,7 @@ a.rlinks:hover, a.rlinks:active {
 
 
 .option__howtoprepare {
-    height: 200px;
+    height: 30vh;
     width: auto;
     background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/howtoprepare__icon.jpg);
     background-size: cover;
@@ -1105,7 +1126,7 @@ a.rlinks:hover, a.rlinks:active {
 
 
 .option__getinvolved {
-    height: 200px;
+    height: 30vh;
     width: auto;
     background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
     background-size: cover;
