@@ -1483,6 +1483,54 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 /*About Us*/
+/*About Us svg animation*/
+
+#AboutUs__svg path:nth-child(2){
+stroke-dasharray:607.352294921875;
+stroke-dashoffset:607.352294921875;
+animation: line-anim 2s ease forwards 0s;
+}
+
+#AboutUs__svg path:nth-child(3){
+stroke-dasharray:527.4256591796875;
+stroke-dashoffset:527.4256591796875;
+animation: line-anim 2s ease forwards 0.3s;
+}
+
+#AboutUs__svg path:nth-child(4){
+stroke-dasharray:494.23272705078125;
+stroke-dashoffset:494.23272705078125;
+animation: line-anim 2s ease forwards 0.6s;
+}
+
+#AboutUs__svg path:nth-child(5){
+stroke-dasharray:363.0921325683594;
+stroke-dashoffset:363.0921325683594;
+animation: line-anim 2s ease forwards 0.9s;
+}
+
+#AboutUs__svg path:nth-child(6){
+stroke-dasharray:494.2328186035156;
+stroke-dashoffset:494.2328186035156;
+animation: line-anim 2s ease forwards 1.2s;
+}
+
+#AboutUs__svg path:nth-child(7){
+stroke-dasharray:533.4012451171875;
+stroke-dashoffset:533.4012451171875;
+animation: line-anim 2s ease forwards 1.5s;
+}
+
+#AboutUs__svg path:nth-child(8){
+stroke-dasharray:495.2237548828125;
+stroke-dashoffset:495.2237548828125;
+animation: line-anim 2s ease forwards 1.8s;
+}
+
+
+#AboutUs__svg-paths {
+  animation: fill-logo 0.5s ease forwards 2.0s;
+}
 
 /*About Us*/
 .About_Us {
