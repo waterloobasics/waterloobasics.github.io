@@ -943,6 +943,7 @@ header {
     /* How to Prepare Page */
     .howtoprepare__title{
         font-size: 30px;
+        background-color: red;
     }
     .option__need, .option__should, .should__subitem {
         padding-bottom: 6px;
