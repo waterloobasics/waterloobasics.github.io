@@ -1246,13 +1246,13 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 .howtoprepare__title{
+    max-width: 100%;
     font-size: 6rem;
     color: var(--blackcolor);
     position: relative;
     top: 50%;
-    left: 64%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    max-width: 100%;
 }
 
 
