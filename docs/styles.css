@@ -821,8 +821,8 @@ header {
         background-color: var(--blackcolor);
     }
     .header {
-        width: 60%;
-        height: 100%;
+        width: 58.85%;
+        height: 105%;
         position: absolute;
         background: var(--blackcolor);
         top: 6rem;
