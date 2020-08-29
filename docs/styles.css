@@ -1770,6 +1770,111 @@ border-radius: 10px;
     background-color: rgb(194, 123, 160);
 }
 
+.iframe_container {
+  position: relative;
+  height: 288px;
+  width: 476px;
+}
+
+.checklist_print {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.checklist_mobile {
+  display: none;
+}
+
+.checklist_mobile2 {
+  display: none;
+}
+
+/*Important Deadlines responsive + mobile */
+@media (max-width: 680px) {
+
+  .deadlines__header{
+    font-size: 20px;
+  }
+
+  .Deadlines_heading{
+      line-height: 50px;
+  }
+
+
+  .deadlines__header-submenu{
+      font-size: 20px;
+      width: 60%;
+      height: 160px;
+      padding:45px 0 15px 24px;
+  }
+
+  .Deadlines_main {
+    padding: 5px 30px;
+    font-size: 17px;
+  }
+
+  .tablealign {
+    align-items: center;
+  }
+
+  .Deadline_approximates th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+.iframe_container {
+ display: none;
+}
+
+.checklist_mobile {
+  display: block;
+}
+
+}
+
+@media (max-width: 440px) {
+
+  .deadlines__header{
+    font-size: 15px;
+  }
+
+  .Deadlines_heading{
+      padding-top: 15px;
+      padding-left: 10px;
+      line-height: 35px;
+  }
+
+
+  .deadlines__header-submenu{
+      font-size: 14px;
+      width: 60%;
+      height: 160px;
+      padding:45px 0 15px 24px;
+  }
+
+  .Deadlines_main {
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+
+  .Deadline_approximates th, td {
+    padding: 3px;
+    font-size: 11px;
+  }
+
+.checklist_mobile {
+  display: none;
+}
+
+.checklist_mobile2 {
+  display: block;
+}
+    
+}
+
 /*Compare programs page*/
 
 .programs_title {
