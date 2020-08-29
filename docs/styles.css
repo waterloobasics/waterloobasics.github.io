@@ -822,7 +822,7 @@ header {
     }
     .header {
         width: 58.85%;
-        height: 105%;
+        height: 100%;
         position: absolute;
         background: var(--blackcolor);
         top: 6rem;
