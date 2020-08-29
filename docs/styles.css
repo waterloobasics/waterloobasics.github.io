@@ -1250,7 +1250,6 @@ a.rlinks:hover, a.rlinks:active {
     background-color: var(--whitecolor);
     max-width: 100%;
     position: sticky;
-    z-index: -1;
 }
 
 .howtoprepare__title{
