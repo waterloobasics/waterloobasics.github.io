@@ -939,6 +939,20 @@ header {
     .submenu__option{
         padding-bottom: 6px;
     }
+
+    /* howtoprepare Page*/
+    .howtoprepare__sub__title{
+        display: none;
+    }
+    .howtoprepare__title{
+        color: black;
+        max-width: 100%;
+        font-size: 30px;
+    }
+    .side__bar{
+        max-width: 30%;
+        font-size: 14px;
+    }
 }
 
 /*Platforms page links*/
@@ -1259,16 +1273,6 @@ a.rlinks:hover, a.rlinks:active {
     max-width: 100%;
 }
 
-@media (max-width: 800px){
-    .howtoprepare__sub__title{
-        display: none;
-    }
-    .howtoprepare__title{
-        color: black;
-        max-width: 100%;
-        font-size: 3rem;
-    }
-}
 /*how to prepare main content*/
 
 .howtoprepare__need__list{
