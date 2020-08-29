@@ -939,16 +939,6 @@ header {
     .submenu__option{
         padding-bottom: 6px;
     }
-
-    /* How to Prepare Page */
-    .howtoprepare__title{
-        font-size: 30px;
-        background-color: red;
-    }
-    .option__need, .option__should, .should__subitem {
-        padding-bottom: 6px;
-        font-size: 14px;
-    }
 }
 
 /*Platforms page links*/
@@ -1345,6 +1335,15 @@ a.rlinks:hover, a.rlinks:active {
     padding: 0.8%;
 }
 
+@media screen and (max-width: 820px){
+    .howtoprepare__title{
+        font-size: 30px;
+    }
+    .option__need, .option__should, .should__subitem {
+        padding-bottom: 6px;
+        font-size: 14px;
+    }
+}
 /* get involved  */
 
 .button {
