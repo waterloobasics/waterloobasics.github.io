@@ -1200,21 +1200,19 @@ a.rlinks:hover, a.rlinks:active {
     font-size: 20px;
     padding: 15px 0 15px 24px;
     background-color: black;
-    min-width: 300px;
+    min-width: 25%;
     position: sticky;
 }
 
 .options__howtoprepare {
     position: relative;
-    top: 5px;
     max-width: 100%;
 }
 
 .should__subitem {
     position: relative;
-    left: 30px;
+    left: 20%;
     font-size: 1rem;
-    max-width: 150px;
 }
 
 .option__need {
