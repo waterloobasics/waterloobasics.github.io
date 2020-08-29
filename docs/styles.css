@@ -941,14 +941,12 @@ header {
     }
 
     /* How to Prepare Page */
-    .howtoprepare__bar{
+    .howtoprepare__title{
         font-size: 30px;
-    }
-    .side__bar{
-        font-size: 14px;
     }
     .option__need, .option__should, .should__subitem {
         padding-bottom: 6px;
+        font-size: 14px;
     }
 }
 
