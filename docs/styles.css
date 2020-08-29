@@ -1338,6 +1338,7 @@ a.rlinks:hover, a.rlinks:active {
 @media screen and (max-width: 820px){
     .howtoprepare__title{
         font-size: 30px;
+        max-width: 80%;
     }
     .option__need, .option__should, .should__subitem {
         padding-bottom: 6px;
