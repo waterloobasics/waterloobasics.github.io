@@ -1249,7 +1249,7 @@ a.rlinks:hover, a.rlinks:active {
     color: var(--blackcolor);
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 64%;
     transform: translate(-50%, -50%);
 }
 
