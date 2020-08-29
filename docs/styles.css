@@ -941,8 +941,14 @@ header {
     }
 
     /* How to Prepare Page */
-    .howtoprepare__title{
+    .howtoprepare__bar{
         font-size: 30px;
+    }
+    .side__bar{
+        font-size: 14px;
+    }
+    .option__need, .option__should, .should__subitem {
+        padding-bottom: 6px;
     }
 }
 
@@ -1215,15 +1221,7 @@ a.rlinks:hover, a.rlinks:active {
     font-size: 1rem;
 }
 
-.option__need {
-    color: var(--yellowcolor);
-}
-
-.option__should {
-    color: var(--yellowcolor);
-}
-
-.should__subitem {
+.option__need, .option__should, .should__subitem {
     color: var(--yellowcolor);
 }
 
@@ -1347,7 +1345,6 @@ a.rlinks:hover, a.rlinks:active {
     border-top: 1px solid var(--greycolor);
     padding: 0.8%;
 }
-
 
 /* get involved  */
 
