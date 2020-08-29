@@ -1259,7 +1259,7 @@ a.rlinks:hover, a.rlinks:active {
     max-width: 100%;
 }
 
-@media (max-width: 440px){
+@media (max-width: 800px){
     .howtoprepare__sub__title{
         display: none;
     }
