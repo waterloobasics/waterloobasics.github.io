@@ -1192,16 +1192,11 @@ a.rlinks:hover, a.rlinks:active {
 
 /* how to prepare side nav bar*/
 
-.howtoprepare__nav__bar {
-    position: sticky;
-}
-
 .side__bar {
-    font-size: 20px;
-    padding: 15px 0 15px 24px;
+    font-size: 1.2rem;
+    padding: 1% 0 1% 1.6%;
     background-color: black;
     min-width: 25%;
-    position: sticky;
 }
 
 .options__howtoprepare {
@@ -1241,15 +1236,9 @@ a.rlinks:hover, a.rlinks:active {
 
 .howtoprepare__bar{
     display: flex;
-    border: 1px;
-    border-color: var(--blackcolor);
-    border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    background-color: var(--whitecolor);
+    border-bottom: 1px solid var(--blackcolor);
     max-width: 100%;
-    position: sticky;
+    background-color: var(--whitecolor);
 }
 
 .howtoprepare__title{
@@ -1282,12 +1271,7 @@ a.rlinks:hover, a.rlinks:active {
     list-style-type: square;
     color: black;
     max-width: 100%;
-    border: 1px;
-    border-style: solid;
-    border-color: var(--greycolor);
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
+    border-top: 1px solid var(--greycolor);
 }
 
 .howtoprepare__link{
@@ -1298,19 +1282,16 @@ a.rlinks:hover, a.rlinks:active {
 .howtoprepare__content{
     background-color: var(--whitecolor);
     max-width: 100%;
-    position: relative;
-    z-index: -1;
 }
 
 .howtoprepare__subtitle{
     position: relative;
     left: 4%;
     font-size: 2rem;
-    top: 10px;
     color: var(--yellowcolor);
     list-style-type: none;
-    max-width: 500px;
-    padding: 10px;
+    max-width: 75%;
+    padding: 0.8%;
     padding-left: none;
 }
 
@@ -1328,7 +1309,7 @@ a.rlinks:hover, a.rlinks:active {
     left: 10%;
     color: var(--blackcolor);
     max-width: 80%;
-    padding: 10px;
+    padding: 0.8%;
     font-size: 1.2rem;
 }
 
@@ -1336,24 +1317,27 @@ a.rlinks:hover, a.rlinks:active {
     position: relative;
     left: 20%;
     max-width:75%;
-    padding: 5px;
+    padding: 0.3%;
     list-style-type: circle;
+    font-size: 1rem;
 }
 
 .howtoprepare__subitem2{
     position: relative;
     left: 30%;
     max-width:50%;
-    padding: 5px;
+    padding: 0.3%;
     list-style-type: circle;
+    font-size: 1rem;
 }
 
 .howtoprepare__subitem3{
     position: relative;
     left: 40%;
     max-width:50%;
-    padding: 5px;
+    padding: 0.3%;
     list-style-type: circle;
+    font-size: 1rem;
 }
 
 .howtoprepare__should__subtitle{
@@ -1363,13 +1347,8 @@ a.rlinks:hover, a.rlinks:active {
     color: var(--greycolor);
     list-style-type: none;
     max-width: 90%;
-    border-width: 1px;
-    border-color: var(--greycolor);
-    border-style: solid;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
-    padding: 10px;
+    border-top: 1px solid var(--greycolor);
+    padding: 0.8%;
 }
 
 
