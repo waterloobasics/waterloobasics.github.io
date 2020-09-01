@@ -959,7 +959,7 @@ header {
 
     .subpage__header-submenu{
         font-size: 14px;
-        max-width: 50%;
+        max-width: 70%;
     }
 
     .subpage__heading{
@@ -967,11 +967,11 @@ header {
     }
 
     .subpage__header-submenu{
-        width: 50%;
+        width: 70%;
     }
     .submenu__option{
         padding-bottom: 6px;
-        max-width: 50%;
+        max-width: 70%;
     }
     
     .submenu__option2{
