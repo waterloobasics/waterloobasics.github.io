@@ -959,10 +959,19 @@ header {
 
     .subpage__header-submenu{
         font-size: 14px;
+        max-width: 50%;
     }
 
+    .subpage__heading{
+        font-size: 1rem;
+    }
+
+    .subpage__header-submenu{
+        width: 50%;
+    }
     .submenu__option{
         padding-bottom: 6px;
+        max-width: 50%;
     }
     
     .submenu__option2{
