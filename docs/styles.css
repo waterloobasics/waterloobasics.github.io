@@ -953,15 +953,19 @@ header {
     }
 
     /*AIF Page*/
-    .aif__header{
+    .subpage__header{
         font-size: 30px;
     }
 
-    .aif__header-submenu{
+    .subpage__header-submenu{
         font-size: 14px;
     }
 
     .submenu__option{
+        padding-bottom: 6px;
+    }
+    
+    .submenu__option2{
         padding-bottom: 6px;
     }
 }
