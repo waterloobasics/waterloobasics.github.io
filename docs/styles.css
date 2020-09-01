@@ -1204,44 +1204,58 @@ a.rlinks:hover, a.rlinks:active {
     max-width: 100%;
 }
 
-.should__subitem {
-    position: relative;
-    left: 20%;
-    font-size: 1rem;
+.option__need, .option__should, .should__subitem {
+    color: white;
+    max-width: 80%;
+    padding: 5px;
 }
 
-.option__need, .option__should, .should__subitem {
-    color: var(--yellowcolor);
+.should__subitem {
+    position: relative;
+    font-size: 1rem;
+    max-width: 60%;
 }
 
 .option__need:hover {
-    border-bottom: 2px solid var(--yellowcolor);
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
 }
 
 .option__should:hover {
-    border-bottom: 2px solid var(--yellowcolor);
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
 }
 
 .should__subitem:hover {
-    border-bottom: 2px solid var(--yellowcolor);
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
+}
+
+.option__should__subitems{
+    list-style-type: circle;
+    color: white;
+    position: relative;
+    left: 20%;
 }
 
 .howtoprepare__bar{
     display: flex;
     max-width: 100%;
-    background-color: var(--whitecolor);
+    background-color: var(--yellowcolor);
 }
 
 .howtoprepare__title{
     max-width: 100%;
     font-size: 6rem;
-    color: var(--blackcolor);
+    color: white;
     position: relative;
     top: 50%;
     left: 64%;
     transform: translate(-50%, -50%);
 }
-
 
 /*how to prepare main content*/
 
@@ -1255,7 +1269,6 @@ a.rlinks:hover, a.rlinks:active {
     list-style-type: square;
     color: black;
     max-width: 100%;
-    border-top: 1px solid var(--greycolor);
 }
 
 .howtoprepare__link{
@@ -1265,27 +1278,49 @@ a.rlinks:hover, a.rlinks:active {
 
 .howtoprepare__content{
     background-color: var(--whitecolor);
-    max-width: 100%;
+    display: block;
+    background: var(--whitecolor);
+    margin: 0.1% 5% 0% 5%;
+    padding: 0 2.5% 5% 2.5%;
+}
+
+.howtoprepare__content-div{
+    background-color: var(--whitecolor);
+    z-index: -1;
 }
 
 .howtoprepare__subtitle{
     position: relative;
-    left: 4%;
-    font-size: 2rem;
+    left: 5%;
+    font-size: 2.5rem;
     color: var(--yellowcolor);
     list-style-type: none;
-    max-width: 75%;
-    padding: 0.8%;
+    max-width: 91.5%;
+    padding-top: 1%;
     padding-left: none;
+    font-weight: bold;
+}
+
+.howtoprepare__subtitle-div{
+    border-top: 1px solid var(--greycolor);
+    padding-top: 2%;
 }
 
 .howtoprepare__intro {
     position: relative;
     left: 5%;
     list-style-type: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--greycolor);
+    max-width: 90%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid var(--greycolor);
+}
+
+.howtoprepare__intro-div{
     max-width: 80%;
+    padding-bottom: 3%;
+    border-bottom: none;
 }
 
 .howtoprepare__item{
@@ -1294,7 +1329,8 @@ a.rlinks:hover, a.rlinks:active {
     color: var(--blackcolor);
     max-width: 80%;
     padding: 0.8%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
 }
 
 .howtoprepare__subitem{
@@ -1303,7 +1339,8 @@ a.rlinks:hover, a.rlinks:active {
     max-width:75%;
     padding: 0.3%;
     list-style-type: circle;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1%;
 }
 
 .howtoprepare__subitem2{
@@ -1311,8 +1348,9 @@ a.rlinks:hover, a.rlinks:active {
     left: 30%;
     max-width:50%;
     padding: 0.3%;
+    padding-bottom: 1%;
     list-style-type: circle;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .howtoprepare__subitem3{
@@ -1320,20 +1358,23 @@ a.rlinks:hover, a.rlinks:active {
     left: 40%;
     max-width:50%;
     padding: 0.3%;
+    padding-bottom: 1%;
     list-style-type: circle;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .howtoprepare__should__subtitle{
     position: relative;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: var(--greycolor);
     list-style-type: none;
     max-width: 90%;
     border-top: 1px solid var(--greycolor);
     padding: 0.8%;
+    font-weight: bold;
 }
+
 
 @media screen and (max-width: 820px){
     .howtoprepare__title{
