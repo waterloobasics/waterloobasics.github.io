@@ -649,31 +649,30 @@ header {
     display: none;
 }
 
-/*AIF Page */
+/*subpage nav bar */
 
-.aif__info {
+.subpage__info {
     height: auto;
     background: var(--whitecolor);
 }
 
-.aif__header {
-    background-color: var(--whitecolor);
+.subpage__header {
+    background-color: var(--yellowcolor);
     font-size: 45px;
     text-align: center;
-    color: var(--blackcolor);
+    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
 }
 
-.aif__heading {
+.subpage__heading {
     position: relative;
     right: 20%;
     align-self: center;
     line-height: 70px;
 }
 
-.aif__header-submenu {
+.subpage__header-submenu {
     background-color: #000000;
     color: var(--yellowcolor);
     font-size: 20px;
@@ -683,18 +682,44 @@ header {
     padding: 15px 0 15px 24px;
 }
 
-.submenu__link {
-    color: var(--yellowcolor);
+.submenu__option{
+    color: white;
+    padding: 5px;
+    max-width: 100%;
 }
 
-.submenu__link:hover {
-    border-bottom: 2px solid var(--yellowcolor);
+.submenu__option2{
+    color: white;
+    padding: 5px;
+    max-width: 100%;
 }
 
-.aif__header-div {
+.submenu__option-div{
+    list-style-type: circle;
+    position: relative;
+    left: 20%;
+    max-width: 80%;
+    color: white;
+}
+
+.submenu__option2:hover{
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
+}
+
+.submenu__option:hover {
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
+}
+
+.subpage__header-div {
     background-color: #000000;
     height: 5px;
 }
+
+/* aif page */
 
 .aif__info-link {
     text-decoration: none;
@@ -1190,73 +1215,6 @@ a.rlinks:hover, a.rlinks:active {
 
 /* how to prepare styles*/
 
-/* how to prepare side nav bar*/
-
-.side__bar {
-    font-size: 1.2rem;
-    padding: 1% 0 1% 1.6%;
-    background-color: black;
-    min-width: 25%;
-}
-
-.options__howtoprepare {
-    position: relative;
-    max-width: 100%;
-}
-
-.option__need, .option__should, .should__subitem {
-    color: white;
-    max-width: 80%;
-    padding: 5px;
-}
-
-.should__subitem {
-    position: relative;
-    font-size: 1rem;
-    max-width: 60%;
-}
-
-.option__need:hover {
-    background-color: var(--yellowcolor);
-    border-radius: 8px;
-    color: var(--blackcolor);
-}
-
-.option__should:hover {
-    background-color: var(--yellowcolor);
-    border-radius: 8px;
-    color: var(--blackcolor);
-}
-
-.should__subitem:hover {
-    background-color: var(--yellowcolor);
-    border-radius: 8px;
-    color: var(--blackcolor);
-}
-
-.option__should__subitems{
-    list-style-type: circle;
-    color: white;
-    position: relative;
-    left: 20%;
-}
-
-.howtoprepare__bar{
-    display: flex;
-    max-width: 100%;
-    background-color: var(--yellowcolor);
-}
-
-.howtoprepare__title{
-    max-width: 100%;
-    font-size: 6rem;
-    color: white;
-    position: relative;
-    top: 50%;
-    left: 64%;
-    transform: translate(-50%, -50%);
-}
-
 /*how to prepare main content*/
 
 .howtoprepare__need__list{
@@ -1375,17 +1333,6 @@ a.rlinks:hover, a.rlinks:active {
     font-weight: bold;
 }
 
-
-@media screen and (max-width: 820px){
-    .howtoprepare__title{
-        font-size: 30px;
-        max-width: 80%;
-    }
-    .option__need, .option__should, .should__subitem {
-        padding-bottom: 6px;
-        font-size: 14px;
-    }
-}
 /* get involved  */
 
 .button {
@@ -1641,42 +1588,6 @@ border-radius: 10px;
 
 /* Important Deadlines page */
 
-/*submenu*/
-
-.deadlines__header {
-    background-color: var(--whitecolor);
-    font-size: 40px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.deadlines__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 60%;
-    height: 160px;
-    text-align: left;
-    padding: 70px 0 15px 24px;
-}
-
-.submenu__link {
-    color: var(--yellowcolor);
-}
-
-.submenu__link:hover {
-    border-bottom: 2px solid var(--yellowcolor);
-}
-
-.Deadlines__header-div {
-    background-color: #000000;
-    height: 5px;
-    width: 100%;
-}
-
 /*maintext*/
 
 .Deadlines_main {
@@ -1919,45 +1830,6 @@ border-radius: 10px;
     color: var(--greycolor);
 }
 
-/*Programs page links*/
-
-.programs__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.programs__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.programs__heading {
-    position: relative;
-    right: 20%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.programs__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 65%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.programs__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
 /*Compare univerities page*/
 
 .uni_title {
@@ -1986,52 +1858,6 @@ border-radius: 10px;
     color: var(--blackcolor);
     text-align: left;
     margin: 40px 150px 40px;
-}
-
-/*Universities page links*/
-
-.uni__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.uni__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-}
-
-.uni__heading {
-    position: relative;
-    right: 10%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.uni__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 75%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.uni__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
-.Deadlines_heading {
-    position: relative;
-    right: 20%;
-    top: 20%;
-    line-height: 75px;
 }
 
 /* Customize the scroll bar for Chrome, Safari, and Edge */
