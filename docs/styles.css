@@ -543,13 +543,45 @@ header {
 .option {
     position: relative;
     height: 30vh;
-    background: var(--yellowcolor);
+}
+
+#aif__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/AIF__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#grades__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/grades__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#interview__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/interview__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#programs__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/programs__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#universities__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/universities__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#acceptance__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/acceptance__button.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 @keyframes unhide__option {
-    from {
-        background: var(--yellowcolor);
-    }
     to {
         background: #000000;
     }
@@ -559,7 +591,32 @@ header {
     display: none;
 }
 
-.option:hover {
+#grades__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#interview__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#programs__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#universities__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#acceptance__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#aif__option:hover {
     background: #000000;
     animation: unhide__option .5s;
 }
@@ -589,65 +646,9 @@ header {
     padding: 0 38px 0 38px;
 }
 
-.aif__option:hover .option__label {
-    display: none;
-}
 
-.option__interview{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
-}
 
-.option__interview {
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
-}
 
-.aif__option:hover .option__desc {
-    display: block;
-}
-
-.grades__option:hover .option__label {
-    display: none;
-}
-
-.grades__option:hover {
-    background: #000000;
-}
-
-.grades__option:hover .option__desc {
-    display: block;
-}
-
-.interview__option:hover .option__label {
-    display: none;
-}
-
-.interview__option:hover {
-    background: #000000;
-}
-
-.interview__option:hover .option__desc {
-    display: block;
-}
-
-.programs__option:hover .option__label {
-    display: none;
-}
-
-.programs__option:hover {
-    background: #000000;
-}
-
-.programs__option:hover .option__desc {
-    display: block;
-}
-
-.universities__option:hover .option__label {
-    display: none;
-}
 
 /*subpage nav bar */
 
@@ -810,10 +811,14 @@ header {
     }
     .wb__phrase {
         position: relative;
-        top: 5%;
+        top: 20%;
         left: 0;
         font-size: 18px;
         transform: translate(0, -50%);
+    }
+
+    #wb__phrase-index{
+        top: 5%;
     }
     .logo {
         display: none;
