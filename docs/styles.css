@@ -810,7 +810,7 @@ header {
     }
     .wb__phrase {
         position: relative;
-        top: 15%;
+        top: 5%;
         left: 0;
         font-size: 18px;
         transform: translate(0, -50%);
