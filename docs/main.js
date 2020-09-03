@@ -33,8 +33,34 @@ if (mq.matches) {
 
 
 
+// Mobile Nav Submenu
+const applySub = document.getElementById('applying__sublist');
+const incomeSub = document.getElementById('incoming__sublist');
+const applyArr = document.getElementById('app-arrow');
+const incomeArr = document.getElementById('inc-arrow');
 
-/* Changing hamburger nav to x */
+if (mq.matches){
+    applyArr.addEventListener('click', ()=>{
+        if (applySub.style.display === 'none'){
+            applySub.style.display = 'block';
+        }else{
+            applySub.style.display = 'none';
+        }
+    });
+}
+
+if (mq.matches){
+    incomeArr.addEventListener('click', ()=>{
+        if (incomeSub.style.display === 'none'){
+            incomeSub.style.display = 'block';
+        }else{
+            incomeSub.style.display = 'none';
+        }
+    });
+}
+
+
+
 
 
 

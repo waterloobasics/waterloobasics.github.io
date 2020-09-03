@@ -760,6 +760,14 @@ header {
     display: none;
 }
 
+#app-arrow{
+    display: none;
+}
+
+#inc-arrow{
+    display: none;
+}
+
 @keyframes fill-w-white {
     to{
         fill: #ffffff
@@ -861,6 +869,14 @@ header {
         padding-left: 2rem;
         list-style: disc;
     }
+
+    #applying__sublist{
+        display: none;
+    }
+
+    #incoming__sublist{
+        display: none;
+    }
     .hamburger {
         display: block;
         position: absolute;
@@ -872,6 +888,7 @@ header {
         background-color: var(--blackcolor);
         outline: none;
     }
+
     #nav-icon {
         color: var(--yellowcolor);
         font-size: 48px;
@@ -881,6 +898,38 @@ header {
         color: var(--yellowcolor);
         font-size: 48px;
         display: none;
+    }
+
+    #app-arrow{
+        display:block;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        position: absolute;
+        left: 90%;
+        transform: translate(0, -130%);
+    }
+
+    #app-arrow-font{
+        color: var(--yellowcolor);
+        font-size: 20px;
+    }
+
+    #inc-arrow{
+        display:block;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        position: absolute;
+        left: 90%;
+        transform: translate(0, -130%);
+    }
+
+    #inc-arrow{
+        color: var(--yellowcolor);
+        font-size: 20px;
     }
     /*Landing*/
     .landing {
