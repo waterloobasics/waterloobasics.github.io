@@ -546,37 +546,37 @@ header {
 }
 
 #aif__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/AIF__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #grades__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/grades__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #interview__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/interview__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #programs__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/programs__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #universities__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/universities__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #acceptance__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/acceptance__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
     background-position: center;
     background-size: cover;
 }
