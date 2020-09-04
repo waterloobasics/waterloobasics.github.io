@@ -731,8 +731,8 @@ header {
 .aif__info-txt {
     display: block;
     background: var(--whitecolor);
-    margin: 2% 10% 5% 10%;
-    padding: 0 5px 100px 5px;
+    margin: 2% 10% 2% 10%;
+    padding: 0 5px 0px 5px;
     border-radius: 5px;
 }
 
@@ -1057,7 +1057,9 @@ a.plinks:hover, a.plinks:active {
 
 a.rlinks:link, a.rlinks:visited {
     color: black;
+    font-weight: bold;
     text-decoration: underline;
+    transition: 0.3s;
 }
 
 a.rlinks:hover, a.rlinks:active {
