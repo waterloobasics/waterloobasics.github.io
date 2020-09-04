@@ -1017,7 +1017,8 @@ header {
     }
 
     .subpage__heading{
-        font-size: 1rem;
+        font-size: 2rem;
+        right: 10%;
     }
 
     .subpage__header-submenu{
