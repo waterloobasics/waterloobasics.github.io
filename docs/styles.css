@@ -456,8 +456,6 @@ header {
 /*Footer*/
 
 .footer__div {
-    position: sticky;
-    bottom: 0;
     width: 100%;
 }
 
@@ -545,13 +543,45 @@ header {
 .option {
     position: relative;
     height: 30vh;
-    background: var(--yellowcolor);
+}
+
+#aif__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#grades__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#interview__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#programs__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#universities__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#acceptance__option{
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 @keyframes unhide__option {
-    from {
-        background: var(--yellowcolor);
-    }
     to {
         background: #000000;
     }
@@ -561,7 +591,32 @@ header {
     display: none;
 }
 
-.option:hover {
+#grades__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#interview__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#programs__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#universities__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#acceptance__option:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
+#aif__option:hover {
     background: #000000;
     animation: unhide__option .5s;
 }
@@ -591,91 +646,34 @@ header {
     padding: 0 38px 0 38px;
 }
 
-.aif__option:hover .option__label {
-    display: none;
-}
 
-.option__interview{
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
-}
 
-.option__interview {
-    height: 200px;
-    width: auto;
-    background-color: var(--yellowcolor);
-}
 
-.aif__option:hover .option__desc {
-    display: block;
-}
 
-.grades__option:hover .option__label {
-    display: none;
-}
+/*subpage nav bar */
 
-.grades__option:hover {
-    background: #000000;
-}
-
-.grades__option:hover .option__desc {
-    display: block;
-}
-
-.interview__option:hover .option__label {
-    display: none;
-}
-
-.interview__option:hover {
-    background: #000000;
-}
-
-.interview__option:hover .option__desc {
-    display: block;
-}
-
-.programs__option:hover .option__label {
-    display: none;
-}
-
-.programs__option:hover {
-    background: #000000;
-}
-
-.programs__option:hover .option__desc {
-    display: block;
-}
-
-.universities__option:hover .option__label {
-    display: none;
-}
-
-/*AIF Page */
-
-.aif__info {
+.subpage__info {
     height: auto;
     background: var(--whitecolor);
 }
 
-.aif__header {
-    background-color: var(--whitecolor);
+.subpage__header {
+    background-color: var(--yellowcolor);
     font-size: 45px;
     text-align: center;
-    color: var(--blackcolor);
+    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
 }
 
-.aif__heading {
+.subpage__heading {
     position: relative;
     right: 20%;
     align-self: center;
     line-height: 70px;
 }
 
-.aif__header-submenu {
+.subpage__header-submenu {
     background-color: #000000;
     color: var(--yellowcolor);
     font-size: 20px;
@@ -685,18 +683,44 @@ header {
     padding: 15px 0 15px 24px;
 }
 
-.submenu__link {
-    color: var(--yellowcolor);
+.submenu__option{
+    color: white;
+    padding: 5px;
+    max-width: 100%;
 }
 
-.submenu__link:hover {
-    border-bottom: 2px solid var(--yellowcolor);
+.submenu__option2{
+    color: white;
+    padding: 5px;
+    max-width: 100%;
 }
 
-.aif__header-div {
+.submenu__option-div{
+    list-style-type: circle;
+    position: relative;
+    left: 20%;
+    max-width: 80%;
+    color: white;
+}
+
+.submenu__option2:hover{
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
+}
+
+.submenu__option:hover {
+    background-color: var(--yellowcolor);
+    border-radius: 8px;
+    color: var(--blackcolor);
+}
+
+.subpage__header-div {
     background-color: #000000;
     height: 5px;
 }
+
+/* aif page */
 
 .aif__info-link {
     text-decoration: none;
@@ -762,6 +786,14 @@ header {
     display: none;
 }
 
+#app-arrow{
+    display: none;
+}
+
+#inc-arrow{
+    display: none;
+}
+
 @keyframes fill-w-white {
     to{
         fill: #ffffff
@@ -779,10 +811,14 @@ header {
     }
     .wb__phrase {
         position: relative;
-        top: 15%;
+        top: 20%;
         left: 0;
         font-size: 18px;
         transform: translate(0, -50%);
+    }
+
+    #wb__phrase-index{
+        top: 5%;
     }
     .logo {
         display: none;
@@ -823,7 +859,7 @@ header {
         background-color: var(--blackcolor);
     }
     .header {
-        width: 60%;
+        width: 58.85%;
         height: 100%;
         position: absolute;
         background: var(--blackcolor);
@@ -863,6 +899,14 @@ header {
         padding-left: 2rem;
         list-style: disc;
     }
+
+    #applying__sublist{
+        display: none;
+    }
+
+    #incoming__sublist{
+        display: none;
+    }
     .hamburger {
         display: block;
         position: absolute;
@@ -874,6 +918,7 @@ header {
         background-color: var(--blackcolor);
         outline: none;
     }
+
     #nav-icon {
         color: var(--yellowcolor);
         font-size: 48px;
@@ -883,6 +928,38 @@ header {
         color: var(--yellowcolor);
         font-size: 48px;
         display: none;
+    }
+
+    #app-arrow{
+        display:block;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        position: absolute;
+        left: 90%;
+        transform: translate(0, -130%);
+    }
+
+    #app-arrow-font{
+        color: var(--yellowcolor);
+        font-size: 20px;
+    }
+
+    #inc-arrow{
+        display:block;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent;
+        position: absolute;
+        left: 90%;
+        transform: translate(0, -130%);
+    }
+
+    #inc-arrow{
+        color: var(--yellowcolor);
+        font-size: 20px;
     }
     /*Landing*/
     .landing {
@@ -930,15 +1007,29 @@ header {
     }
 
     /*AIF Page*/
-    .aif__header{
+    .subpage__header{
         font-size: 30px;
     }
 
-    .aif__header-submenu{
+    .subpage__header-submenu{
         font-size: 14px;
+        max-width: 70%;
     }
 
+    .subpage__heading{
+        font-size: 2rem;
+        right: 10%;
+    }
+
+    .subpage__header-submenu{
+        width: 70%;
+    }
     .submenu__option{
+        padding-bottom: 6px;
+        max-width: 70%;
+    }
+    
+    .submenu__option2{
         padding-bottom: 6px;
     }
 }
@@ -1194,89 +1285,6 @@ a.rlinks:hover, a.rlinks:active {
 
 /* how to prepare styles*/
 
-/* how to prepare side nav bar*/
-
-.howtoprepare__nav__bar {
-    position: sticky;
-}
-
-.side__bar {
-    font-size: 20px;
-    padding: 15px 0 15px 24px;
-    background-color: black;
-    min-width: 300px;
-    position: sticky;
-}
-
-.options__howtoprepare {
-    position: relative;
-    top: 5px;
-    max-width: 100%;
-}
-
-.should__subitem {
-    position: relative;
-    left: 30px;
-    font-size: 1rem;
-    max-width: 150px;
-}
-
-.option__need {
-    color: var(--yellowcolor);
-}
-
-.option__should {
-    color: var(--yellowcolor);
-}
-
-.should__subitem {
-    color: var(--yellowcolor);
-}
-
-.option__need:hover {
-    border-bottom: 2px solid var(--yellowcolor);
-}
-
-.option__should:hover {
-    border-bottom: 2px solid var(--yellowcolor);
-}
-
-.should__subitem:hover {
-    border-bottom: 2px solid var(--yellowcolor);
-}
-
-.howtoprepare__bar{
-    display: flex;
-    border: 1px;
-    border-color: var(--blackcolor);
-    border-style: solid;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    background-color: var(--whitecolor);
-    max-width: 100%;
-    position: sticky;
-    z-index: -1;
-}
-
-.howtoprepare__title{
-    position: relative;
-    font-size: 6rem;
-    color: var(--yellowcolor);
-    font-variant: small-caps;
-    left: 15%;
-    max-width: 100%;
-}
-
-.howtoprepare__sub__title{
-    position: relative;
-    left: 16%;
-    bottom: 20%;
-    font-size: 1.5rem;
-    color: var(--greycolor);
-    max-width: 100%;
-}
-
 /*how to prepare main content*/
 
 .howtoprepare__need__list{
@@ -1289,12 +1297,6 @@ a.rlinks:hover, a.rlinks:active {
     list-style-type: square;
     color: black;
     max-width: 100%;
-    border: 1px;
-    border-style: solid;
-    border-color: var(--greycolor);
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
 }
 
 .howtoprepare__link{
@@ -1304,30 +1306,49 @@ a.rlinks:hover, a.rlinks:active {
 
 .howtoprepare__content{
     background-color: var(--whitecolor);
-    max-width: 100%;
-    position: relative;
+    display: block;
+    background: var(--whitecolor);
+    margin: 0.1% 5% 0% 5%;
+    padding: 0 2.5% 5% 2.5%;
+}
+
+.howtoprepare__content-div{
+    background-color: var(--whitecolor);
     z-index: -1;
 }
 
 .howtoprepare__subtitle{
     position: relative;
-    left: 4%;
-    font-size: 2rem;
-    top: 10px;
+    left: 5%;
+    font-size: 2.5rem;
     color: var(--yellowcolor);
     list-style-type: none;
-    max-width: 500px;
-    padding: 10px;
+    max-width: 91.5%;
+    padding-top: 1%;
     padding-left: none;
+    font-weight: bold;
+}
+
+.howtoprepare__subtitle-div{
+    border-top: 1px solid var(--greycolor);
+    padding-top: 2%;
 }
 
 .howtoprepare__intro {
     position: relative;
     left: 5%;
     list-style-type: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: var(--greycolor);
+    max-width: 90%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid var(--greycolor);
+}
+
+.howtoprepare__intro-div{
     max-width: 80%;
+    padding-bottom: 3%;
+    border-bottom: none;
 }
 
 .howtoprepare__item{
@@ -1335,50 +1356,52 @@ a.rlinks:hover, a.rlinks:active {
     left: 10%;
     color: var(--blackcolor);
     max-width: 80%;
-    padding: 10px;
-    font-size: 1.2rem;
+    padding: 0.8%;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
 }
 
 .howtoprepare__subitem{
     position: relative;
     left: 20%;
     max-width:75%;
-    padding: 5px;
+    padding: 0.3%;
     list-style-type: circle;
+    font-size: 1.2rem;
+    padding-bottom: 1%;
 }
 
 .howtoprepare__subitem2{
     position: relative;
     left: 30%;
     max-width:50%;
-    padding: 5px;
+    padding: 0.3%;
+    padding-bottom: 1%;
     list-style-type: circle;
+    font-size: 1.2rem;
 }
 
 .howtoprepare__subitem3{
     position: relative;
     left: 40%;
     max-width:50%;
-    padding: 5px;
+    padding: 0.3%;
+    padding-bottom: 1%;
     list-style-type: circle;
+    font-size: 1.2rem;
 }
 
 .howtoprepare__should__subtitle{
     position: relative;
     left: 5%;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: var(--greycolor);
     list-style-type: none;
     max-width: 90%;
-    border-width: 1px;
-    border-color: var(--greycolor);
-    border-style: solid;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
-    padding: 10px;
+    border-top: 1px solid var(--greycolor);
+    padding: 0.8%;
+    font-weight: bold;
 }
-
 
 /* get involved  */
 
@@ -1489,6 +1512,54 @@ a.rlinks:hover, a.rlinks:active {
 }
 
 /*About Us*/
+/*About Us svg animation*/
+
+#AboutUs__svg path:nth-child(2){
+stroke-dasharray:607.352294921875;
+stroke-dashoffset:607.352294921875;
+animation: line-anim 2s ease forwards 0s;
+}
+
+#AboutUs__svg path:nth-child(3){
+stroke-dasharray:527.4256591796875;
+stroke-dashoffset:527.4256591796875;
+animation: line-anim 2s ease forwards 0.3s;
+}
+
+#AboutUs__svg path:nth-child(4){
+stroke-dasharray:494.23272705078125;
+stroke-dashoffset:494.23272705078125;
+animation: line-anim 2s ease forwards 0.6s;
+}
+
+#AboutUs__svg path:nth-child(5){
+stroke-dasharray:363.0921325683594;
+stroke-dashoffset:363.0921325683594;
+animation: line-anim 2s ease forwards 0.9s;
+}
+
+#AboutUs__svg path:nth-child(6){
+stroke-dasharray:494.2328186035156;
+stroke-dashoffset:494.2328186035156;
+animation: line-anim 2s ease forwards 1.2s;
+}
+
+#AboutUs__svg path:nth-child(7){
+stroke-dasharray:533.4012451171875;
+stroke-dashoffset:533.4012451171875;
+animation: line-anim 2s ease forwards 1.5s;
+}
+
+#AboutUs__svg path:nth-child(8){
+stroke-dasharray:495.2237548828125;
+stroke-dashoffset:495.2237548828125;
+animation: line-anim 2s ease forwards 1.8s;
+}
+
+
+#AboutUs__svg-paths {
+  animation: fill-logo 0.5s ease forwards 2.0s;
+}
 
 /*About Us*/
 .About_Us {
@@ -1586,42 +1657,6 @@ border-radius: 10px;
 
 
 /* Important Deadlines page */
-
-/*submenu*/
-
-.deadlines__header {
-    background-color: var(--whitecolor);
-    font-size: 40px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.deadlines__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 60%;
-    height: 160px;
-    text-align: left;
-    padding: 70px 0 15px 24px;
-}
-
-.submenu__link {
-    color: var(--yellowcolor);
-}
-
-.submenu__link:hover {
-    border-bottom: 2px solid var(--yellowcolor);
-}
-
-.Deadlines__header-div {
-    background-color: #000000;
-    height: 5px;
-    width: 100%;
-}
 
 /*maintext*/
 
@@ -1726,6 +1761,111 @@ border-radius: 10px;
     background-color: rgb(194, 123, 160);
 }
 
+.iframe_container {
+  position: relative;
+  height: 288px;
+  width: 476px;
+}
+
+.checklist_print {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.checklist_mobile {
+  display: none;
+}
+
+.checklist_mobile2 {
+  display: none;
+}
+
+/*Important Deadlines responsive + mobile */
+@media (max-width: 680px) {
+
+  .deadlines__header{
+    font-size: 20px;
+  }
+
+  .Deadlines_heading{
+      line-height: 50px;
+  }
+
+
+  .deadlines__header-submenu{
+      font-size: 20px;
+      width: 60%;
+      height: 160px;
+      padding:45px 0 15px 24px;
+  }
+
+  .Deadlines_main {
+    padding: 5px 30px;
+    font-size: 17px;
+  }
+
+  .tablealign {
+    align-items: center;
+  }
+
+  .Deadline_approximates th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+.iframe_container {
+ display: none;
+}
+
+.checklist_mobile {
+  display: block;
+}
+
+}
+
+@media (max-width: 440px) {
+
+  .deadlines__header{
+    font-size: 15px;
+  }
+
+  .Deadlines_heading{
+      padding-top: 15px;
+      padding-left: 10px;
+      line-height: 35px;
+  }
+
+
+  .deadlines__header-submenu{
+      font-size: 14px;
+      width: 60%;
+      height: 160px;
+      padding:45px 0 15px 24px;
+  }
+
+  .Deadlines_main {
+    padding: 5px 20px;
+    font-size: 15px;
+  }
+
+  .Deadline_approximates th, td {
+    padding: 3px;
+    font-size: 11px;
+  }
+
+.checklist_mobile {
+  display: none;
+}
+
+.checklist_mobile2 {
+  display: block;
+}
+    
+}
+
 /*Compare programs page*/
 
 .programs_title {
@@ -1760,45 +1900,6 @@ border-radius: 10px;
     color: var(--greycolor);
 }
 
-/*Programs page links*/
-
-.programs__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.programs__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.programs__heading {
-    position: relative;
-    right: 20%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.programs__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 65%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.programs__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
 /*Compare univerities page*/
 
 .uni_title {
@@ -1827,52 +1928,6 @@ border-radius: 10px;
     color: var(--blackcolor);
     text-align: left;
     margin: 40px 150px 40px;
-}
-
-/*Universities page links*/
-
-.uni__info {
-    height: auto;
-    background: var(--whitecolor);
-}
-
-.uni__header {
-    background-color: var(--whitecolor);
-    font-size: 45px;
-    text-align: center;
-    color: var(--blackcolor);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-}
-
-.uni__heading {
-    position: relative;
-    right: 10%;
-    top: 35%;
-    line-height: 70px;
-}
-
-.uni__header-submenu {
-    background-color: #000000;
-    color: var(--yellowcolor);
-    font-size: 20px;
-    width: 75%;
-    height: auto;
-    text-align: left;
-    padding: 15px 0 15px 40px;
-}
-
-.uni__header-div {
-    background-color: #000000;
-    height: 5px;
-}
-
-.Deadlines_heading {
-    position: relative;
-    right: 20%;
-    top: 20%;
-    line-height: 75px;
 }
 
 /* Customize the scroll bar for Chrome, Safari, and Edge */
