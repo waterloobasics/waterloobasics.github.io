@@ -546,37 +546,37 @@ header {
 }
 
 #aif__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/AIF__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/AIF__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #grades__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/grades__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/grades__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #interview__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/interview__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/interview__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #programs__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/programs__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/programs__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #universities__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/universities__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/universities__button.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #acceptance__option{
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/acceptance__button.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/acceptance__button.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -1163,7 +1163,7 @@ a.rlinks:hover, a.rlinks:active {
 .option__platforms {
     height: 30vh;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/platforms__icon.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/platforms__icon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1178,7 +1178,7 @@ a.rlinks:hover, a.rlinks:active {
 
 @keyframes unhide__optionplat {
     from {
-        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/platforms__icon.jpg);
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/platforms__icon.jpg);
     }
     to {
         background: #000000;
@@ -1194,7 +1194,7 @@ a.rlinks:hover, a.rlinks:active {
 .option__resources {
     height: 30vh;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/resources__icon.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/resources__icon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1209,7 +1209,7 @@ a.rlinks:hover, a.rlinks:active {
 
 @keyframes unhide__optionres {
     from {
-        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/resources__icon.jpg);
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/resources__icon.jpg);
     }
     to {
         background: #000000;
@@ -1225,7 +1225,7 @@ a.rlinks:hover, a.rlinks:active {
 .option__howtoprepare {
     height: 30vh;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/howtoprepare__icon.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/howtoprepare__icon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1240,7 +1240,7 @@ a.rlinks:hover, a.rlinks:active {
 
 @keyframes unhide__optionprep {
     from {
-        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/howtoprepare__icon.jpg);
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/howtoprepare__icon.jpg);
     }
     to {
         background: #000000;
@@ -1256,7 +1256,7 @@ a.rlinks:hover, a.rlinks:active {
 .option__getinvolved {
     height: 30vh;
     width: auto;
-    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
+    background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/getinvolved__icon.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1271,7 +1271,7 @@ a.rlinks:hover, a.rlinks:active {
 
 @keyframes unhide__optioninv {
     from {
-        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(/img/getinvolved__icon.jpg);
+        background: linear-gradient(0deg, rgba(227, 199, 61, 0.7), rgba(227, 199, 61, 0.7)), url(./img/getinvolved__icon.jpg);
     }
     to {
         background: #000000;
@@ -1928,6 +1928,33 @@ border-radius: 10px;
     color: var(--blackcolor);
     text-align: left;
     margin: 40px 150px 40px;
+}
+
+/* Discussion page (placeholder) */
+
+#dis_head {
+    background: var(--yellowcolor);
+    padding: 10px;
+}
+
+#dis_title {
+    text-align: center;
+}
+
+#dis_text {
+    text-align: center;
+    padding: 10px;
+}
+
+#dis_main {
+    padding: 20px;
+}
+
+#goose {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Customize the scroll bar for Chrome, Safari, and Edge */
