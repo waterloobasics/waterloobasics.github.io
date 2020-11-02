@@ -1614,16 +1614,29 @@ border-radius: 10px;
   align-items: center;
 }
 
-#ammar {
+.slider #ammar {
   background: url(./img/Ammar-profile.jpg);
   background-position: center;
   background-size: cover;
 }
-#rakshita {
+
+.slider #ammar:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+.slider #rakshita {
   background: url(./img/Rakshita_Jain_profile.jpg);
   background-position: center;
   background-size: cover;
 }
+
+.slider #rakshita:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+
 #ben {
   background: url(./img/ben.jpg);
   background-position: center;
