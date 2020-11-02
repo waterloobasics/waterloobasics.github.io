@@ -993,7 +993,7 @@ header {
     .options__grid{
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .option{
         height: 20vh;
     }
@@ -1028,7 +1028,7 @@ header {
         padding-bottom: 6px;
         max-width: 70%;
     }
-    
+
     .submenu__option2{
         padding-bottom: 6px;
     }
@@ -1591,18 +1591,19 @@ border-radius: 10px;
 }
 
 .carousel {
-  border: 2px solid #ccc;
+  border: 2px solid white;
   height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+
 }
 
 .slider {
   height: 100%;
   display: flex;
   width: 200%;
-  border: 1px solid red;
+  border: 1px solid white;
   transition: all 0.3s;
 }
 
@@ -1614,8 +1615,31 @@ border-radius: 10px;
 
 }
 
-.slider > section > div > p{
+.slider > section > p{
   display: none;
+  font-size: 12px;
+  margin: 5px;
+}
+
+
+
+.slider .icon {
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.slider .name {
+  font-size: 15px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.slider .program {
+  font-size: 13px;
+
+
 }
 
 .slider section:hover {
@@ -1624,7 +1648,16 @@ border-radius: 10px;
   transition: all 0.3s;
 }
 
-.slider section:hover > div > p{
+.slider section:hover .image {
+  display: none;
+}
+
+.image {
+  padding: none;
+  border: none;
+}
+
+.slider section:hover > p{
   display: flex;
   color: white;
   align-items: center;
@@ -1647,12 +1680,6 @@ border-radius: 10px;
 
 .arrow.right {
   right: 10px;
-}
-
-.image1 {
-  background-image: url('butterfly.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 
@@ -1863,7 +1890,7 @@ border-radius: 10px;
 .checklist_mobile2 {
   display: block;
 }
-    
+
 }
 
 /*Compare programs page*/
