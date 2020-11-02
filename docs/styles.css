@@ -1614,53 +1614,40 @@ border-radius: 10px;
   align-items: center;
 }
 
+.slider section:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+
 @keyframes unhide__option {
     to {
         background: #000000;
     }
 }
 
-.slider #ammar {
+#ammar {
   background: url(./img/Ammar-profile.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.slider section:hover {
-  display: block;
-  background: var(--blackcolor);
-  transition: all 0.3s;
+#ammar:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
 }
 
-.slider section:hover #ammar {
-  display: none;
-}
-.slider .rakshita {
+#rakshita {
   background: url(./img/Rakshita_Jain_profile.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.slider section:hover {
-  display: block;
-  background: var(--blackcolor);
-  transition: all 0.3s;
-}
-
-.slider section:hover .rakshita {
-  display: none;
-}
-
-.image {
-  padding: none;
-  border: none;
-}
-
-
-.slider #rakshita:hover {
-  display: block;
-  background: var(--blackcolor);
-  transition: all 0.3s;
+#rakshita:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
 }
 
 #ben {
@@ -1679,21 +1666,49 @@ border-radius: 10px;
   background-position: center;
   background-size: cover;
 }
+
+#wyatt:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
+}
+
 #josh {
   background: url(./img/josh.jpg);
   background-position: center;
   background-size: cover;
 }
+
+#josh:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
+}
+
 #nava {
   background: url(./img/Edge10 (1).jpg);
   background-position: center;
   background-size: cover;
 }
+
+#nava:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
+}
+
 #amanda {
   background: url(./img/amanda.png);
   background-position: center;
   background-size: cover;
 }
+
+#amanda:hover {
+    background: #000000;
+    transition: all 0.3s;
+    animation: unhide__option .5s;
+}
+
 .slider > section > p{
   display: none;
   font-size: 12px;
