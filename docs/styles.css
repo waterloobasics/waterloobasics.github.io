@@ -1612,11 +1612,43 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#ammar {
+  background: url(./img/Ammar-profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#rakshita {
+  background: url(./img/Rakshita_Jain_profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#ben {
+  background: url(./img/ben.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#wyatt {
+  background: url(./img/Wyatt ID Photo (1).jpg);
+  background-position: center;
+  background-size: cover;
+}
+#josh {
+  background: url(./img/josh.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#nava {
+  background: url(./img/Edge10 (1).jpg);
+  background-position: center;
+  background-size: cover;
+}
+#amanda {
   background: url(./img/amanda.png);
   background-position: center;
   background-size: cover;
 }
-
 .slider > section > p{
   display: none;
   font-size: 12px;
