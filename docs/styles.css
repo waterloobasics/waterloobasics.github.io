@@ -1614,22 +1614,48 @@ border-radius: 10px;
   align-items: center;
 }
 
+@keyframes unhide__option {
+    to {
+        background: #000000;
+    }
+}
+
 .slider #ammar {
   background: url(./img/Ammar-profile.jpg);
   background-position: center;
   background-size: cover;
 }
 
-.slider #ammar:hover {
+.slider section:hover {
   display: block;
   background: var(--blackcolor);
   transition: all 0.3s;
 }
-.slider #rakshita {
+
+.slider section:hover #ammar {
+  display: none;
+}
+.slider .rakshita {
   background: url(./img/Rakshita_Jain_profile.jpg);
   background-position: center;
   background-size: cover;
 }
+
+.slider section:hover {
+  display: block;
+  background: var(--blackcolor);
+  transition: all 0.3s;
+}
+
+.slider section:hover .rakshita {
+  display: none;
+}
+
+.image {
+  padding: none;
+  border: none;
+}
+
 
 .slider #rakshita:hover {
   display: block;
@@ -1642,6 +1668,12 @@ border-radius: 10px;
   background-position: center;
   background-size: cover;
 }
+
+#ben:hover {
+    background: #000000;
+    animation: unhide__option .5s;
+}
+
 #wyatt {
   background: url(./img/Wyatt ID Photo (1).jpg);
   background-position: center;
