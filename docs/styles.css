@@ -1703,6 +1703,16 @@ border-radius: 10px;
     animation: unhide__option .5s;
 }
 
+#alisa {
+    background: url(./img/Alisa.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #alisa:hover {
+      background: #000000;
+      animation: unhide__option .5s;
+  }
 .slider > section > p{
   display: none;
   font-size: 12px;
