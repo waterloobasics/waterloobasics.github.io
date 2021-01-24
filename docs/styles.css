@@ -1704,7 +1704,7 @@ border-radius: 10px;
 }
 
 #alisa {
-    background: url(./img/amanda.png);
+    background: url(./img/Alisa.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -1713,6 +1713,7 @@ border-radius: 10px;
       background: #000000;
       animation: unhide__option .5s;
   }
+
 .slider > section > p{
   display: none;
   font-size: 12px;
